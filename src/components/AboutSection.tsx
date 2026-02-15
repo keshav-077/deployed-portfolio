@@ -1,19 +1,38 @@
-import { GraduationCap, Target } from "lucide-react";
+import { GraduationCap, Target, Sparkles, TrendingUp } from "lucide-react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+import SectionHeading from "./SectionHeading";
+
+const stats = [
+  { label: "Projects Built", value: "10+", icon: Sparkles },
+  { label: "Internships", value: "3", icon: TrendingUp },
+  { label: "Publications", value: "1", icon: Target },
+];
 
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-24 relative">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          About <span className="gradient-text">Me</span>
-        </h2>
-        <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-          A passionate AI Engineer dedicated to pushing the boundaries of artificial intelligence
-        </p>
+  const { ref, isVisible } = useScrollReveal();
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Bio */}
-          <div className="glass rounded-2xl p-8 gradient-border">
+  return (
+    <section id="about" className="py-24 relative overflow-hidden" ref={ref}>
+      {/* Background accent */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px]" />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-[100px]" />
+
+      <div className="max-w-6xl mx-auto px-4 relative z-10">
+        <SectionHeading title="About" highlight="Me" subtitle="Who I Am" isVisible={isVisible} />
+
+        {/* Bento grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          {/* Bio - spans 2 cols */}
+          <div
+            className={`md:col-span-2 group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden transition-all duration-700 delay-100 ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+          >
+            {/* Spotlight hover effect */}
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
+            <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <Sparkles size={18} className="text-accent" /> My Journey
+            </h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
               I'm an AI Engineer with deep expertise in Large Language Models, multi-agent systems,
               Retrieval-Augmented Generation (RAG), and computer vision. My journey in AI began during
@@ -28,45 +47,77 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Education */}
-          <div className="space-y-6">
-            <div className="glass rounded-2xl p-6 gradient-border">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-primary/10">
-                  <GraduationCap className="text-primary" size={24} />
+          {/* Stats column */}
+          <div className="flex flex-col gap-4">
+            {stats.map((s, i) => (
+              <div
+                key={s.label}
+                className={`group relative glass rounded-2xl p-5 border border-border/50 overflow-hidden flex items-center gap-4 transition-all duration-700 ${
+                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
+                style={{ transitionDelay: `${200 + i * 100}ms` }}
+              >
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
+                <div className="p-2.5 rounded-xl bg-primary/10 shrink-0">
+                  <s.icon className="text-primary" size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">B.Tech in CSE (AI & ML)</h3>
-                  <p className="text-accent text-sm font-medium">IIIT Nagpur</p>
-                  <p className="text-muted-foreground text-sm mt-1">2022 – 2026</p>
-                  <p className="text-muted-foreground text-sm mt-2">
-                    Specializing in Artificial Intelligence & Machine Learning with hands-on research
-                    experience in generative models and computer vision.
-                  </p>
+                  <p className="text-2xl font-bold gradient-text">{s.value}</p>
+                  <p className="text-xs text-muted-foreground">{s.label}</p>
                 </div>
               </div>
-            </div>
-
-            <div className="glass rounded-2xl p-6 gradient-border">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-accent/10">
-                  <GraduationCap className="text-accent" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg">MBA (PGPMCI)</h3>
-                  <p className="text-accent text-sm font-medium">IIM Visakhapatnam</p>
-                  <p className="text-muted-foreground text-sm mt-1">2026 – 2028</p>
-                  <p className="text-muted-foreground text-sm mt-2">
-                    Incoming MBA student, bridging AI expertise with business strategy and leadership.
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 
-        {/* Vision */}
-        <div className="glass rounded-2xl p-8 gradient-border text-center">
+        {/* Education row */}
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            {
+              degree: "B.Tech in CSE (AI & ML)",
+              school: "IIIT Nagpur",
+              period: "2022 – 2026",
+              desc: "Specializing in Artificial Intelligence & Machine Learning with hands-on research experience in generative models and computer vision.",
+              color: "primary" as const,
+            },
+            {
+              degree: "MBA (PGPMCI)",
+              school: "IIM Visakhapatnam",
+              period: "2026 – 2028",
+              desc: "Incoming MBA student, bridging AI expertise with business strategy and leadership.",
+              color: "accent" as const,
+            },
+          ].map((edu, i) => (
+            <div
+              key={edu.degree}
+              className={`group relative glass rounded-2xl p-6 border border-border/50 overflow-hidden transition-all duration-700 ${
+                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
+              style={{ transitionDelay: `${500 + i * 100}ms` }}
+            >
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
+              <div className="flex items-start gap-4">
+                <div className={`p-3 rounded-xl ${edu.color === "primary" ? "bg-primary/10" : "bg-accent/10"}`}>
+                  <GraduationCap className={edu.color === "primary" ? "text-primary" : "text-accent"} size={24} />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg">{edu.degree}</h3>
+                  <p className="text-accent text-sm font-medium">{edu.school}</p>
+                  <p className="text-muted-foreground text-sm mt-1">{edu.period}</p>
+                  <p className="text-muted-foreground text-sm mt-2">{edu.desc}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Vision banner */}
+        <div
+          className={`group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden text-center transition-all duration-700 delay-[700ms] ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
+          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5 pointer-events-none" />
           <div className="flex justify-center mb-4">
             <div className="p-3 rounded-xl bg-primary/10">
               <Target className="text-primary" size={24} />
