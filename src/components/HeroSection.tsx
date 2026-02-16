@@ -248,7 +248,8 @@ const HeroSection = () => {
             View Projects
           </a>
           <a
-            href="#"
+            href="/Keshavardhan_Makireddi.pdf"
+            download
             className="px-5 py-2.5 text-sm font-medium rounded-lg glass gradient-border text-foreground hover:bg-secondary/60 transition-colors"
           >
             Download Resume
