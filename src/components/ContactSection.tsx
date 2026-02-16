@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Mail, Phone, Github, Linkedin, Send, ArrowUpRight } from "lucide-react";
+import emailjs from "@emailjs/browser";
+import { Mail, Phone, Github, Linkedin, Send, Loader2, ArrowUpRight } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
@@ -10,15 +11,34 @@ const ContactSection = () => {
   const { toast } = useToast();
   const { ref, isVisible } = useScrollReveal();
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
       toast({ title: "Please fill in all required fields", variant: "destructive" });
       return;
     }
-    toast({ title: "Message sent!", description: "Thanks for reaching out. I'll get back to you soon." });
-    setForm({ name: "", email: "", subject: "", message: "" });
+    setSending(true);
+    try {
+      await emailjs.send(
+        "service_n8c6eko",
+        "template_n5cdifb",
+        {
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
+        },
+        "VCehBPkLou-GijNjT"
+      );
+      toast({ title: "Message sent!", description: "Thanks for reaching out. I'll get back to you soon." });
+      setForm({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      toast({ title: "Failed to send message", description: "Please try again or email me directly.", variant: "destructive" });
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -83,9 +103,11 @@ const ContactSection = () => {
               </div>
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium hover:opacity-90 hover:shadow-[0_0_20px_-5px_hsl(250_80%_65%/0.4)] transition-all duration-300"
+                disabled={sending}
+                className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium hover:opacity-90 hover:shadow-[0_0_20px_-5px_hsl(250_80%_65%/0.4)] transition-all duration-300 disabled:opacity-60"
               >
-                <Send size={18} /> Send Message
+                {sending ? <Loader2 size={18} className="animate-spin" /> : <Send size={18} />}
+                {sending ? "Sending..." : "Send Message"}
               </button>
             </div>
           </form>
