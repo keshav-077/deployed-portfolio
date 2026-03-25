@@ -4,61 +4,103 @@ import { Badge } from "@/components/ui/badge";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
-const categories = ["All", "AI/ML", "Computer Vision", "NLP", "Other"];
+const categories = ["All", "AI/ML", "Computer Vision", "NLP", "GenAI", "Other"];
 
 const projects = [
   {
     title: "AI-Driven Border Security System",
-    desc: "Real-time weapon detection and face recognition system for enhanced border security using deep learning.",
+    desc: "Real-time weapon detection and face recognition pipeline for border security, combining YOLOv8 object detection with OSNet re-identification for high-accuracy threat monitoring.",
     tags: ["YOLOv8", "OSNet", "OpenCV", "Python"],
     category: "Computer Vision",
     github: "https://github.com/keshav-077",
   },
   {
-    title: "DeepFake Detection",
-    desc: "High-accuracy deepfake video detection combining EfficientNet-B0 with BiLSTM temporal analysis.",
+    title: "DeepFake Detection System",
+    desc: "Robust deepfake video detection framework fusing EfficientNet-B0 spatial features with BiLSTM temporal modeling to identify manipulated media with high accuracy.",
     tags: ["EfficientNet", "BiLSTM", "PyTorch", "CNN"],
     category: "Computer Vision",
     github: "https://github.com/keshav-077",
   },
   {
+    title: "DontCaught — Stealth AI Assistant",
+    desc: "Lightweight desktop AI assistant built with Tauri and React, featuring a translucent overlay invisible to video calls and screen recordings while providing real-time AI-powered assistance.",
+    tags: ["Tauri", "React", "AI", "Desktop"],
+    category: "Other",
+    github: "https://github.com/keshav-077/Dontcaught-AI-assistant",
+  },
+  {
     title: "Language Translation & Summarization",
-    desc: "Multi-language translation and summarization pipeline leveraging mBART and Pegasus transformer models.",
+    desc: "End-to-end multi-language translation and text summarization pipeline leveraging mBART for translation and Pegasus for abstractive summarization of long documents.",
     tags: ["mBART", "Pegasus", "HuggingFace", "NLP"],
     category: "NLP",
     github: "https://github.com/keshav-077",
   },
   {
     title: "Source Code Analysis Chatbot",
-    desc: "RAG-based semantic search tool for analyzing and querying codebases using LangChain and vector stores.",
+    desc: "RAG-powered semantic search tool for querying and analyzing large codebases, using LangChain orchestration with FAISS vector stores for contextual code understanding.",
     tags: ["LangChain", "RAG", "FAISS", "GPT"],
     category: "NLP",
     github: "https://github.com/keshav-077",
   },
   {
+    title: "Job Application Assistant",
+    desc: "Intelligent job hunting automation tool that scrapes listings, auto-generates tailored cover letters, and sends personalized cold emails — eliminating repetitive application workflows.",
+    tags: ["Automation", "NLP", "Python", "LLM"],
+    category: "Other",
+    github: "https://github.com/keshav-077/Job-Application-Assistant-HackByte3.0",
+  },
+  {
+    title: "Object Detection — HackByte",
+    desc: "Optimized lightweight object detection pipeline built on YOLOv8s with advanced augmentation strategies and tuned hyperparameters for the HackByte competition dataset.",
+    tags: ["YOLOv8s", "Augmentation", "Python", "CV"],
+    category: "Computer Vision",
+    github: "https://github.com/keshav-077/Duality-HackByte-Object-Detection-using-YOLOv8s",
+  },
+  {
+    title: "Sentiment Analysis Engine",
+    desc: "NLP-based sentiment classifier detecting toxic and aggressive language patterns in digital communications, enabling safer online interactions through real-time content moderation.",
+    tags: ["NLP", "Classification", "Python", "ML"],
+    category: "NLP",
+    github: "https://github.com/keshav-077/Sentiment_analysis",
+  },
+  {
+    title: "Image Generation with DCGAN",
+    desc: "Deep Convolutional GAN implementation for high-quality image synthesis, utilizing convolutional-transpose layers with progressive training for realistic output generation.",
+    tags: ["DCGAN", "PyTorch", "GANs", "CNN"],
+    category: "GenAI",
+    github: "https://github.com/keshav-077/1mage-Generation-using-DCGAN",
+  },
+  {
+    title: "Digit Generation with VAE",
+    desc: "Variational Autoencoder built with TensorFlow/Keras for generating novel MNIST-style digit images through learned latent space representations and probabilistic decoding.",
+    tags: ["VAE", "TensorFlow", "Keras", "Generative"],
+    category: "GenAI",
+    github: "https://github.com/keshav-077/Digit-Generation-Using-VAE",
+  },
+  {
     title: "Sign Language Detection",
-    desc: "Real-time sign language gesture recognition system using MediaPipe and custom CNN architectures.",
+    desc: "Real-time sign language gesture recognition using MediaPipe hand tracking combined with custom CNN architectures for accessible communication assistance.",
     tags: ["MediaPipe", "CNN", "TensorFlow", "OpenCV"],
     category: "Computer Vision",
     github: "https://github.com/keshav-077",
   },
   {
     title: "RL Music Recommendation",
-    desc: "Reinforcement learning-based music recommendation engine adapting to user preferences in real-time.",
+    desc: "Reinforcement learning-based music recommendation engine that dynamically adapts to user listening patterns using reward-driven preference optimization.",
     tags: ["RL", "Python", "Gym", "PyTorch"],
     category: "AI/ML",
     github: "https://github.com/keshav-077",
   },
   {
-    title: "Earthquake Prediction",
-    desc: "Machine learning model for seismic activity prediction using historical geological data and deep learning.",
+    title: "Earthquake Prediction Model",
+    desc: "Deep learning model for seismic activity forecasting using LSTM networks trained on historical geological data with feature engineering for temporal pattern recognition.",
     tags: ["LSTM", "Scikit-learn", "TensorFlow", "Pandas"],
     category: "AI/ML",
     github: "https://github.com/keshav-077",
   },
   {
     title: "Crop Disease Detection",
-    desc: "CNN-based crop disease classification from leaf images to aid precision agriculture and farming decisions.",
+    desc: "CNN-based precision agriculture tool for automated crop disease classification from leaf images, enabling early disease intervention and improved farming outcomes.",
     tags: ["CNN", "TensorFlow", "OpenCV", "Agriculture"],
     category: "Computer Vision",
     github: "https://github.com/keshav-077",
@@ -108,10 +150,8 @@ const ProjectsSection = () => {
               }`}
               style={{ transitionDelay: `${300 + i * 80}ms` }}
             >
-              {/* Spotlight */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/8 via-transparent to-accent/8 pointer-events-none" />
 
-              {/* Number badge */}
               <span className="absolute top-4 right-4 text-5xl font-black text-foreground/[0.03] select-none">
                 {String(i + 1).padStart(2, "0")}
               </span>
@@ -134,7 +174,6 @@ const ProjectsSection = () => {
                 ))}
               </div>
 
-              {/* Action row */}
               <div className="relative z-10 flex items-center gap-3 pt-3 border-t border-border/30">
                 <a
                   href={p.github}

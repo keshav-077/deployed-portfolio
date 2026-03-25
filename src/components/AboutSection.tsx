@@ -1,9 +1,9 @@
-import { GraduationCap, Target, Sparkles, TrendingUp, ExternalLink, Calendar, MapPin } from "lucide-react";
+import { GraduationCap, Target, Sparkles, TrendingUp, ExternalLink, Calendar, MapPin, ArrowRight } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
 const stats = [
-  { label: "Projects Built", value: "10+", icon: Sparkles },
+  { label: "Projects Built", value: "14+", icon: Sparkles },
   { label: "Internships", value: "3", icon: TrendingUp },
   { label: "Publications", value: "1", icon: Target },
 ];
@@ -13,10 +13,9 @@ const education = [
     degree: "Master of Business Administration (MBA)",
     program: "Post Graduate Programme in Management for Career Influencers (PGPMCI)",
     school: "Indian Institute of Management Visakhapatnam (IIM Visakhapatnam)",
-    shortName: "IIM Visakhapatnam",
-    location: "Visakhapatnam, Andhra Pradesh",
+    location: "Visakhapatnam, Andhra Pradesh, India",
     period: "2026 – 2028",
-    desc: "Incoming MBA student, bridging AI expertise with business strategy, leadership, and innovation management.",
+    desc: "Incoming MBA student at one of India's premier management institutes, bridging deep AI/ML expertise with business strategy, leadership, and innovation management to drive technology-driven enterprise transformation.",
     link: "https://www.iimv.ac.in/",
     color: "accent" as const,
   },
@@ -24,10 +23,9 @@ const education = [
     degree: "Bachelor of Technology (B.Tech)",
     program: "Computer Science & Engineering — Specialization in Artificial Intelligence & Machine Learning",
     school: "Indian Institute of Information Technology, Nagpur (IIIT Nagpur)",
-    shortName: "IIIT Nagpur",
-    location: "Nagpur, Maharashtra",
+    location: "Nagpur, Maharashtra, India",
     period: "2022 – 2026",
-    desc: "Specialized in AI & ML with hands-on research experience in generative models, computer vision, and multi-agent systems.",
+    desc: "Specialized in AI & Machine Learning with hands-on research in generative models, computer vision, multi-agent systems, and NLP. Published IEEE research and completed multiple industry internships.",
     link: "https://iiitn.ac.in/",
     color: "primary" as const,
   },
@@ -41,12 +39,11 @@ const AboutSection = () => {
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px]" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-[100px]" />
 
-      <div className="max-w-6xl mx-auto px-4 relative z-10">
+      <div className="max-w-5xl mx-auto px-4 relative z-10">
         <SectionHeading title="About" highlight="Me" subtitle="Who I Am" isVisible={isVisible} />
 
-        {/* Bento grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {/* Bio */}
+        {/* Bio + Stats bento */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
           <div
             className={`md:col-span-2 group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden transition-all duration-700 delay-100 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
@@ -70,7 +67,6 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Stats */}
           <div className="flex flex-col gap-4">
             {stats.map((s, i) => (
               <div
@@ -93,55 +89,74 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Education — stacked cards */}
-        <div className="space-y-5 mb-4">
-          {education.map((edu, i) => (
-            <div
-              key={edu.degree}
-              className={`group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden transition-all duration-700 hover:border-${edu.color}/30 hover:shadow-[0_0_40px_-8px_hsl(${edu.color === "primary" ? "250_80%_65%" : "190_90%_50%"}/0.18)] ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
-              style={{ transitionDelay: `${500 + i * 150}ms` }}
-            >
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
+        {/* Education — vertical timeline */}
+        <div className="relative mb-8">
+          {/* Timeline line */}
+          <div className="absolute left-6 md:left-8 top-0 bottom-0 w-px bg-gradient-to-b from-accent/50 via-primary/50 to-transparent" />
 
-              {/* Decorative corner glow */}
-              <div className={`absolute -top-20 -right-20 w-40 h-40 rounded-full blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${edu.color === "primary" ? "bg-primary/10" : "bg-accent/10"}`} />
+          <div className="space-y-6">
+            {education.map((edu, i) => (
+              <div
+                key={edu.degree}
+                className={`group relative pl-16 md:pl-20 transition-all duration-700 ${
+                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
+                style={{ transitionDelay: `${500 + i * 200}ms` }}
+              >
+                {/* Timeline node */}
+                <div className={`absolute left-3.5 md:left-5.5 top-8 w-5 h-5 rounded-full border-2 ${edu.color === "accent" ? "border-accent bg-accent/20" : "border-primary bg-primary/20"} shadow-[0_0_15px_2px] ${edu.color === "accent" ? "shadow-accent/30" : "shadow-primary/30"} transition-all duration-500 group-hover:scale-125`} />
 
-              <div className="relative z-10 flex flex-col md:flex-row md:items-start gap-5">
-                <div className={`p-4 rounded-2xl shrink-0 ${edu.color === "primary" ? "bg-primary/10 group-hover:bg-primary/20" : "bg-accent/10 group-hover:bg-accent/20"} transition-colors`}>
-                  <GraduationCap className={edu.color === "primary" ? "text-primary" : "text-accent"} size={28} />
-                </div>
+                <div className={`glass rounded-2xl p-6 md:p-8 border border-border/50 overflow-hidden hover:border-${edu.color}/30 transition-all duration-500 hover:shadow-[0_0_40px_-8px_hsl(${edu.color === "primary" ? "250_80%_65%" : "190_90%_50%"}/0.2)] hover:-translate-y-1`}>
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
 
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-xl mb-1">{edu.degree}</h3>
-                  <p className={`text-sm font-semibold mb-2 ${edu.color === "primary" ? "text-primary" : "text-accent"}`}>
-                    {edu.program}
-                  </p>
+                  <div className="relative z-10">
+                    {/* Period badge */}
+                    <div className="flex flex-wrap items-center gap-3 mb-4">
+                      <span className={`inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full ${edu.color === "accent" ? "bg-accent/10 text-accent border border-accent/20" : "bg-primary/10 text-primary border border-primary/20"}`}>
+                        <Calendar size={12} /> {edu.period}
+                      </span>
+                      <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
+                        <MapPin size={12} /> {edu.location}
+                      </span>
+                    </div>
 
-                  <a
-                    href={edu.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`inline-flex items-center gap-1.5 font-medium mb-3 transition-colors ${edu.color === "primary" ? "text-primary hover:text-primary/80" : "text-accent hover:text-accent/80"}`}
-                  >
-                    {edu.school} <ExternalLink size={14} />
-                  </a>
+                    {/* Degree */}
+                    <h3 className="font-bold text-xl md:text-2xl mb-2">{edu.degree}</h3>
 
-                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-3">
-                    <span className="flex items-center gap-1.5">
-                      <Calendar size={14} /> {edu.period}
-                    </span>
-                    <span className="flex items-center gap-1.5">
-                      <MapPin size={14} /> {edu.location}
-                    </span>
+                    {/* Program */}
+                    <p className={`text-sm font-semibold mb-3 ${edu.color === "primary" ? "text-primary" : "text-accent"}`}>
+                      {edu.program}
+                    </p>
+
+                    {/* School with link */}
+                    <a
+                      href={edu.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`inline-flex items-center gap-2 font-semibold text-base mb-4 transition-all duration-300 hover:-translate-x-[-4px] ${edu.color === "primary" ? "text-primary hover:text-primary/80" : "text-accent hover:text-accent/80"}`}
+                    >
+                      <GraduationCap size={18} />
+                      {edu.school}
+                      <ExternalLink size={14} />
+                    </a>
+
+                    {/* Description */}
+                    <p className="text-muted-foreground text-sm leading-relaxed">{edu.desc}</p>
+
+                    {/* Visit link */}
+                    <a
+                      href={edu.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`inline-flex items-center gap-1.5 mt-4 text-sm font-medium transition-colors ${edu.color === "primary" ? "text-primary/70 hover:text-primary" : "text-accent/70 hover:text-accent"}`}
+                    >
+                      Visit Website <ArrowRight size={14} />
+                    </a>
                   </div>
-
-                  <p className="text-muted-foreground text-sm leading-relaxed">{edu.desc}</p>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Vision banner */}

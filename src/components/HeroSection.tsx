@@ -211,19 +211,6 @@ const HeroSection = () => {
         <AIEngineerVisual />
       </div>
 
-      {/* Social links - right side */}
-      <div className="hidden md:flex flex-col gap-5 fixed right-8 top-1/2 -translate-y-1/2 z-20 text-xs tracking-widest text-muted-foreground">
-        <a href="https://github.com/keshav-077" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GH</a>
-        <a href="#" className="hover:text-accent transition-colors">LI</a>
-        <a href="mailto:keshavardhan777@gmail.com" className="hover:text-accent transition-colors">EM</a>
-      </div>
-
-      {/* "PORTFOLIO" vertical text - left side */}
-      <div className="hidden md:block fixed left-8 top-1/2 -translate-y-1/2 z-20">
-        <span className="text-xs tracking-[0.3em] text-muted-foreground/60 [writing-mode:vertical-lr] rotate-180">
-          PORTFOLIO
-        </span>
-      </div>
 
       {/* Bottom content overlay */}
       <div className="relative z-10 mt-auto px-6 sm:px-10 pb-10 sm:pb-16">
