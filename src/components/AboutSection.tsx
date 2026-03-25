@@ -1,4 +1,4 @@
-import { GraduationCap, Target, Sparkles, TrendingUp } from "lucide-react";
+import { GraduationCap, Target, Sparkles, TrendingUp, ExternalLink, Calendar, MapPin } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
@@ -8,12 +8,36 @@ const stats = [
   { label: "Publications", value: "1", icon: Target },
 ];
 
+const education = [
+  {
+    degree: "Master of Business Administration (MBA)",
+    program: "Post Graduate Programme in Management for Career Influencers (PGPMCI)",
+    school: "Indian Institute of Management Visakhapatnam (IIM Visakhapatnam)",
+    shortName: "IIM Visakhapatnam",
+    location: "Visakhapatnam, Andhra Pradesh",
+    period: "2026 – 2028",
+    desc: "Incoming MBA student, bridging AI expertise with business strategy, leadership, and innovation management.",
+    link: "https://www.iimv.ac.in/",
+    color: "accent" as const,
+  },
+  {
+    degree: "Bachelor of Technology (B.Tech)",
+    program: "Computer Science & Engineering — Specialization in Artificial Intelligence & Machine Learning",
+    school: "Indian Institute of Information Technology, Nagpur (IIIT Nagpur)",
+    shortName: "IIIT Nagpur",
+    location: "Nagpur, Maharashtra",
+    period: "2022 – 2026",
+    desc: "Specialized in AI & ML with hands-on research experience in generative models, computer vision, and multi-agent systems.",
+    link: "https://iiitn.ac.in/",
+    color: "primary" as const,
+  },
+];
+
 const AboutSection = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
     <section id="about" className="py-24 relative overflow-hidden" ref={ref}>
-      {/* Background accent */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px]" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-[100px]" />
 
@@ -22,13 +46,12 @@ const AboutSection = () => {
 
         {/* Bento grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {/* Bio - spans 2 cols */}
+          {/* Bio */}
           <div
             className={`md:col-span-2 group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden transition-all duration-700 delay-100 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            {/* Spotlight hover effect */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
             <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
               <Sparkles size={18} className="text-accent" /> My Journey
@@ -47,7 +70,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Stats column */}
+          {/* Stats */}
           <div className="flex flex-col gap-4">
             {stats.map((s, i) => (
               <div
@@ -70,41 +93,51 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Education row */}
-        <div className="grid md:grid-cols-2 gap-4 mb-4">
-          {[
-            {
-              degree: "B.Tech in CSE (AI & ML)",
-              school: "IIIT Nagpur",
-              period: "2022 – 2026",
-              desc: "Specializing in Artificial Intelligence & Machine Learning with hands-on research experience in generative models and computer vision.",
-              color: "primary" as const,
-            },
-            {
-              degree: "MBA (PGPMCI)",
-              school: "IIM Visakhapatnam",
-              period: "2026 – 2028",
-              desc: "Incoming MBA student, bridging AI expertise with business strategy and leadership.",
-              color: "accent" as const,
-            },
-          ].map((edu, i) => (
+        {/* Education — stacked cards */}
+        <div className="space-y-5 mb-4">
+          {education.map((edu, i) => (
             <div
               key={edu.degree}
-              className={`group relative glass rounded-2xl p-6 border border-border/50 overflow-hidden transition-all duration-700 ${
+              className={`group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden transition-all duration-700 hover:border-${edu.color}/30 hover:shadow-[0_0_40px_-8px_hsl(${edu.color === "primary" ? "250_80%_65%" : "190_90%_50%"}/0.18)] ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
-              style={{ transitionDelay: `${500 + i * 100}ms` }}
+              style={{ transitionDelay: `${500 + i * 150}ms` }}
             >
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
-              <div className="flex items-start gap-4">
-                <div className={`p-3 rounded-xl ${edu.color === "primary" ? "bg-primary/10" : "bg-accent/10"}`}>
-                  <GraduationCap className={edu.color === "primary" ? "text-primary" : "text-accent"} size={24} />
+
+              {/* Decorative corner glow */}
+              <div className={`absolute -top-20 -right-20 w-40 h-40 rounded-full blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${edu.color === "primary" ? "bg-primary/10" : "bg-accent/10"}`} />
+
+              <div className="relative z-10 flex flex-col md:flex-row md:items-start gap-5">
+                <div className={`p-4 rounded-2xl shrink-0 ${edu.color === "primary" ? "bg-primary/10 group-hover:bg-primary/20" : "bg-accent/10 group-hover:bg-accent/20"} transition-colors`}>
+                  <GraduationCap className={edu.color === "primary" ? "text-primary" : "text-accent"} size={28} />
                 </div>
-                <div>
-                  <h3 className="font-semibold text-lg">{edu.degree}</h3>
-                  <p className="text-accent text-sm font-medium">{edu.school}</p>
-                  <p className="text-muted-foreground text-sm mt-1">{edu.period}</p>
-                  <p className="text-muted-foreground text-sm mt-2">{edu.desc}</p>
+
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-xl mb-1">{edu.degree}</h3>
+                  <p className={`text-sm font-semibold mb-2 ${edu.color === "primary" ? "text-primary" : "text-accent"}`}>
+                    {edu.program}
+                  </p>
+
+                  <a
+                    href={edu.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-1.5 font-medium mb-3 transition-colors ${edu.color === "primary" ? "text-primary hover:text-primary/80" : "text-accent hover:text-accent/80"}`}
+                  >
+                    {edu.school} <ExternalLink size={14} />
+                  </a>
+
+                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-3">
+                    <span className="flex items-center gap-1.5">
+                      <Calendar size={14} /> {edu.period}
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <MapPin size={14} /> {edu.location}
+                    </span>
+                  </div>
+
+                  <p className="text-muted-foreground text-sm leading-relaxed">{edu.desc}</p>
                 </div>
               </div>
             </div>
@@ -113,7 +146,7 @@ const AboutSection = () => {
 
         {/* Vision banner */}
         <div
-          className={`group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden text-center transition-all duration-700 delay-[700ms] ${
+          className={`group relative glass rounded-2xl p-8 border border-border/50 overflow-hidden text-center transition-all duration-700 delay-[800ms] ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >

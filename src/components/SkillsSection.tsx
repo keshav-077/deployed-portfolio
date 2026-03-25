@@ -4,38 +4,37 @@ import SectionHeading from "./SectionHeading";
 
 const skillCategories = [
   {
-    title: "Programming",
+    title: "Programming Languages",
     icon: Code,
-    skills: ["Python", "R", "SQL", "JavaScript", "TypeScript", "C++"],
+    skills: ["Python", "R", "SQL"],
   },
   {
-    title: "AI/ML & Gen AI",
+    title: "Generative AI",
     icon: Brain,
-    skills: ["LLMs", "RAG", "LangChain", "LangGraph", "GANs", "Diffusion Models", "Fine-tuning", "LoRA/QLoRA"],
+    skills: ["LLMs", "LangChain", "RAG", "LangGraph", "AutoGen", "Hugging Face Transformers", "GANs", "Diffusion Models"],
   },
   {
-    title: "Frameworks",
+    title: "Frameworks & Libraries",
     icon: Layers,
-    skills: ["PyTorch", "TensorFlow", "OpenCV", "FastAPI", "React", "Django", "HuggingFace", "Scikit-learn"],
+    skills: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "OpenCV", "Seaborn", "NLTK", "SpaCy", "Gensim", "Flask", "Keras", "TensorFlow", "PyTorch", "FastAPI", "React JS", "Django", "Spark", "Hadoop", "MXNet", "Caffe", "ROS", "OCR", "Streamlit", "Gradio"],
   },
   {
-    title: "Data & Cloud",
+    title: "Cloud & Databases",
     icon: Cloud,
-    skills: ["AWS", "Azure", "GCP", "Spark", "Hadoop", "Vector Databases", "PostgreSQL", "MongoDB"],
+    skills: ["AWS", "Azure", "Google Cloud Platform (GCP)", "MySQL", "XAMPP", "VectorDB"],
   },
   {
-    title: "Tools",
+    title: "Developer Tools",
     icon: Wrench,
-    skills: ["Git", "Docker", "Linux", "Power BI", "Kaggle API", "Jupyter", "VS Code"],
+    skills: ["Git/GitHub", "VS Code", "Jupyter Notebook", "Power BI", "Google Dialogflow", "Kaggle API", "Linux", "MATLAB"],
   },
   {
-    title: "AI Automation",
+    title: "AI Development & Automation",
     icon: Zap,
-    skills: ["Workato", "n8n", "MLOps", "CI/CD", "SambaNova Cloud"],
+    skills: ["Workato", "n8n", "Cursor", "Windsurf", "GitHub Copilot", "Kiro", "Antigravity"],
   },
 ];
 
-// Marquee row for all skills combined
 const allSkills = skillCategories.flatMap((c) => c.skills);
 
 const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
@@ -46,7 +45,7 @@ const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
     <div className="overflow-hidden relative py-2">
       <div
         className={`flex gap-3 whitespace-nowrap ${
-          reverse ? "animate-[marquee-reverse_40s_linear_infinite]" : "animate-[marquee_40s_linear_infinite]"
+          reverse ? "animate-[marquee-reverse_50s_linear_infinite]" : "animate-[marquee_50s_linear_infinite]"
         }`}
       >
         {doubled.map((skill, i) => (
@@ -72,7 +71,6 @@ const SkillsSection = () => {
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <SectionHeading title="Skills &" highlight="Expertise" subtitle="Tech Stack" isVisible={isVisible} />
 
-        {/* Marquee showcase */}
         <div
           className={`mb-14 transition-all duration-700 delay-200 ${
             isVisible ? "opacity-100" : "opacity-0"
@@ -82,7 +80,6 @@ const SkillsSection = () => {
           <MarqueeRow reverse />
         </div>
 
-        {/* Category cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {skillCategories.map((cat, i) => (
             <div
