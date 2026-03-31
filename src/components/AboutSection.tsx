@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
 const stats = [
-  { label: "Projects Built", value: "14+", icon: Sparkles },
+  { label: "Projects Built", value: "20+", icon: Sparkles },
   { label: "Internships", value: "3", icon: TrendingUp },
   { label: "Publications", value: "1", icon: Target },
 ];
