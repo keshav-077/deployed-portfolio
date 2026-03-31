@@ -1,4 +1,4 @@
-import { Code, Brain, Layers, Cloud, Wrench, Zap } from "lucide-react";
+import { Code, Brain, Layers, Cloud, Wrench, Zap, Cpu } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
