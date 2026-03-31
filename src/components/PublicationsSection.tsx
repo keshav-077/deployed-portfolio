@@ -5,6 +5,7 @@ import SectionHeading from "./SectionHeading";
 const certifications = [
   { title: "Building Transformers-Based NLP Applications", issuer: "NVIDIA", color: "primary" as const },
   { title: "Accelerated Computing with CUDA Python", issuer: "NVIDIA", color: "primary" as const },
+  { title: "Accelerated Computing with CUDA C/C++", issuer: "NVIDIA", color: "primary" as const },
   { title: "Certified Deep Learning", issuer: "NVIDIA", color: "primary" as const },
   { title: "Certified Data Analysis", issuer: "IBM", color: "accent" as const },
   { title: "Deep Learning Image Generation with GANs and Diffusion Models", issuer: "Udemy", color: "accent" as const },

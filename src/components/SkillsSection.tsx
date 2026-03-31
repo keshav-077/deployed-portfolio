@@ -1,4 +1,4 @@
-import { Code, Brain, Layers, Cloud, Wrench, Zap } from "lucide-react";
+import { Code, Brain, Layers, Cloud, Wrench, Zap, Cpu } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SectionHeading from "./SectionHeading";
 
@@ -6,17 +6,17 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code,
-    skills: ["Python", "R", "SQL"],
+    skills: ["Python", "R", "SQL", "C", "C++"],
   },
   {
-    title: "Generative AI",
+    title: "Gen AI & Computer Vision, NLP",
     icon: Brain,
-    skills: ["LLMs", "LangChain", "RAG", "LangGraph", "AutoGen", "Hugging Face Transformers", "GANs", "Diffusion Models"],
+    skills: ["LLMs", "LangChain", "RAG", "LangGraph", "AutoGen", "Hugging Face Transformers", "GANs", "Diffusion Models", "VAEs", "MLOps", "OCR", "VLM", "RLHF"],
   },
   {
     title: "Frameworks & Libraries",
     icon: Layers,
-    skills: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "OpenCV", "Seaborn", "NLTK", "SpaCy", "Gensim", "Flask", "Keras", "TensorFlow", "PyTorch", "FastAPI", "React JS", "Django", "Spark", "Hadoop", "MXNet", "Caffe", "ROS", "OCR", "Streamlit", "Gradio"],
+    skills: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "OpenCV", "Seaborn", "NLTK", "SpaCy", "Gensim", "Flask", "Keras", "TensorFlow", "PyTorch", "FastAPI", "React JS", "Django", "Spark", "Hadoop", "MXNet", "Caffe", "ROS", "Streamlit", "Gradio", "RESTful API", "Node.js", "HTML", "CSS", "JavaScript", "GraphQL", "Postgres", "Kubernetes"],
   },
   {
     title: "Cloud & Databases",
@@ -26,15 +26,19 @@ const skillCategories = [
   {
     title: "Developer Tools",
     icon: Wrench,
-    skills: ["Git/GitHub", "VS Code", "Jupyter Notebook", "Power BI", "Google Dialogflow", "Kaggle API", "Linux", "MATLAB"],
+    skills: ["Git/GitHub", "VS Code", "Jupyter Notebook", "Power BI", "Google Dialogflow", "Kaggle API", "Linux", "MATLAB", "CI/CD", "Docker", "Redis"],
   },
   {
     title: "AI Development & Automation",
     icon: Zap,
-    skills: ["Workato", "n8n", "Cursor", "Windsurf", "GitHub Copilot", "Kiro", "Antigravity"],
+    skills: ["Workato", "n8n", "Cursor", "Windsurf", "Copilot", "Kiro", "Antigravity"],
+  },
+  {
+    title: "Accelerated Computing / GPU",
+    icon: Cpu,
+    skills: ["CUDA (Python)", "CUDA (C/C++)", "Parallel Computing", "OpenMP", "MPI"],
   },
 ];
-
 const allSkills = skillCategories.flatMap((c) => c.skills);
 
 const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
