@@ -46,21 +46,11 @@ const ExperienceSection = () => {
 
   return (
     <section id="experience" className="py-24 relative overflow-hidden" ref={ref}>
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/30 to-transparent pointer-events-none" />
-
-      <div className="max-w-4xl mx-auto px-4 relative z-10">
+      <div className="max-w-4xl mx-auto px-6 relative z-10">
         <SectionHeading title="Work" highlight="Experience" subtitle="My Career" isVisible={isVisible} />
 
         <div className="relative">
-          {/* Timeline line */}
-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px">
-            <div className="absolute inset-0 bg-gradient-to-b from-primary via-accent to-primary/20" />
-            <div
-              className={`absolute inset-0 bg-gradient-to-b from-primary via-accent to-primary/20 blur-sm transition-opacity duration-1000 ${
-                isVisible ? "opacity-100" : "opacity-0"
-              }`}
-            />
-          </div>
+          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-foreground/20 via-foreground/10 to-transparent" />
 
           {experiences.map((exp, i) => (
             <div
@@ -70,9 +60,9 @@ const ExperienceSection = () => {
               }`}
             >
               <div className="absolute left-4 md:left-1/2 -translate-x-1/2 mt-8 z-10">
-                <div className="w-3 h-3 rounded-full bg-accent glow-sm" />
+                <div className="w-3 h-3 rounded-full bg-foreground/40 glow-sm" />
                 <div
-                  className={`absolute inset-[-4px] rounded-full border border-accent/30 transition-all duration-700 ${
+                  className={`absolute inset-[-4px] rounded-full border border-foreground/20 transition-all duration-700 ${
                     isVisible ? "scale-100 opacity-100" : "scale-0 opacity-0"
                   }`}
                   style={{ transitionDelay: `${i * 200 + 300}ms` }}
@@ -87,20 +77,17 @@ const ExperienceSection = () => {
                 }`}
                 style={{ transitionDelay: `${i * 200 + 200}ms` }}
               >
-                <div className="group relative glass rounded-2xl p-6 border border-border/50 overflow-hidden hover:border-primary/30 transition-all duration-300 hover:shadow-[0_0_30px_-5px_hsl(250_80%_65%/0.15)]">
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 pointer-events-none" />
-
-                  {/* Company badge with link */}
+                <div className="group relative rounded-2xl p-6 bg-card/60 border border-border/40 overflow-hidden hover:border-foreground/20 transition-all duration-300">
                   <a
                     href={exp.companyUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-xs font-medium text-primary mb-3 hover:bg-primary/20 transition-colors"
+                    className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-foreground/5 border border-foreground/10 text-xs font-medium text-foreground/60 mb-3 hover:text-foreground/80 transition-colors"
                   >
                     <Briefcase size={12} /> {exp.company} <ExternalLink size={10} />
                   </a>
 
-                  <h3 className="font-semibold text-lg mb-2">{exp.role}</h3>
+                  <h3 className="font-medium text-lg mb-2 text-foreground/90">{exp.role}</h3>
                   <div className="flex flex-wrap gap-3 text-sm text-muted-foreground mb-4">
                     <span className="flex items-center gap-1">
                       <Calendar size={14} /> {exp.period}
@@ -112,7 +99,7 @@ const ExperienceSection = () => {
                   <ul className="space-y-2.5">
                     {exp.bullets.map((b, j) => (
                       <li key={j} className="text-sm text-muted-foreground flex items-start gap-2">
-                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gradient-to-r from-primary to-accent shrink-0" />
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-foreground/30 shrink-0" />
                         {b}
                       </li>
                     ))}

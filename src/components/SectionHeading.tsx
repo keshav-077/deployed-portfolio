@@ -11,11 +11,11 @@ const SectionHeading = ({ title, highlight, subtitle, isVisible }: Props) => (
       isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
     }`}
   >
-    <p className="text-accent text-sm font-medium tracking-widest uppercase mb-3">{subtitle}</p>
-    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-      {title} <span className="gradient-text">{highlight}</span>
+    <p className="text-foreground/40 text-xs font-medium tracking-[0.25em] uppercase mb-4">{subtitle}</p>
+    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium gradient-text">
+      {title} {highlight}
     </h2>
-    <div className="mt-4 mx-auto w-20 h-1 rounded-full bg-gradient-to-r from-primary to-accent" />
+    <div className="mt-5 mx-auto w-12 h-[1px] bg-gradient-to-r from-transparent via-foreground/40 to-transparent" />
   </div>
 );
 

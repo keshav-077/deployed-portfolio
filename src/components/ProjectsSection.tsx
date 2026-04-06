@@ -156,9 +156,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className="py-24 relative overflow-hidden" ref={ref}>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[150px] pointer-events-none" />
-
-      <div className="max-w-6xl mx-auto px-4 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <SectionHeading title="Featured" highlight="Projects" subtitle="My Work" isVisible={isVisible} />
 
         {/* Filter tabs */}
@@ -173,8 +171,8 @@ const ProjectsSection = () => {
               onClick={() => setActive(cat)}
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 active === cat
-                  ? "bg-gradient-to-r from-primary to-accent text-primary-foreground shadow-[0_0_20px_-5px_hsl(250_80%_65%/0.4)]"
-                  : "glass text-muted-foreground hover:text-foreground border border-border/50 hover:border-primary/30"
+                  ? "bg-foreground text-background"
+                  : "bg-card/60 text-muted-foreground hover:text-foreground border border-border/40 hover:border-foreground/20"
               }`}
             >
               {cat}
@@ -183,23 +181,21 @@ const ProjectsSection = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((p, i) => (
             <div
               key={p.title}
-              className={`group relative glass rounded-2xl p-6 border border-border/50 overflow-hidden transition-all duration-500 hover:border-primary/30 hover:shadow-[0_0_40px_-10px_hsl(250_80%_65%/0.2)] hover:-translate-y-1 ${
+              className={`group relative rounded-2xl p-6 bg-card/60 border border-border/40 overflow-hidden transition-all duration-500 hover:border-foreground/20 hover:-translate-y-1 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
-              style={{ transitionDelay: `${300 + i * 80}ms` }}
+              style={{ transitionDelay: `${300 + i * 60}ms` }}
             >
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-primary/8 via-transparent to-accent/8 pointer-events-none" />
-
-              <span className="absolute top-4 right-4 text-5xl font-black text-foreground/[0.03] select-none">
+              <span className="absolute top-4 right-4 text-5xl font-semibold text-foreground/[0.03] select-none">
                 {String(i + 1).padStart(2, "0")}
               </span>
 
               <div className="flex items-start justify-between mb-3 relative z-10">
-                <h3 className="font-semibold text-lg leading-tight pr-8">{p.title}</h3>
+                <h3 className="font-medium text-base leading-tight pr-8 text-foreground/90">{p.title}</h3>
               </div>
 
               <p className="text-sm text-muted-foreground mb-5 leading-relaxed relative z-10">{p.desc}</p>
@@ -209,7 +205,7 @@ const ProjectsSection = () => {
                   <Badge
                     key={tag}
                     variant="secondary"
-                    className="text-xs bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
+                    className="text-xs bg-foreground/5 text-foreground/50 border-foreground/10 hover:bg-foreground/10 transition-colors"
                   >
                     {tag}
                   </Badge>
@@ -221,7 +217,7 @@ const ProjectsSection = () => {
                   href={p.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Github size={16} /> Code
                 </a>
@@ -229,7 +225,7 @@ const ProjectsSection = () => {
                   href={p.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-accent transition-colors ml-auto"
+                  className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto"
                 >
                   View <ArrowUpRight size={14} />
                 </a>
