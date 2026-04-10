@@ -147,6 +147,20 @@ const projects = [
     category: "Computer Vision",
     github: "https://github.com/keshav-077",
   },
+  {
+    title: "Clothes Inpainting with SAM",
+    desc: "AI-powered clothes replacement pipeline combining Meta's Segment Anything Model for precise garment segmentation with Stable Diffusion for photorealistic inpainting and outfit generation.",
+    tags: ["SAM", "Stable Diffusion", "Inpainting", "Python"],
+    category: "GenAI",
+    github: "https://github.com/keshav-077/clothes-inpainting-sam",
+  },
+  {
+    title: "Multimodal Generation AI",
+    desc: "Multimodal AI image generation system leveraging CLIP for semantic text-image alignment and VQGAN for high-fidelity visual synthesis from natural language prompts.",
+    tags: ["CLIP", "VQGAN", "PyTorch", "Multimodal"],
+    category: "GenAI",
+    github: "https://github.com/keshav-077/multimodal-generation-ai",
+  },
 ];
 
 const ProjectsSection = () => {
