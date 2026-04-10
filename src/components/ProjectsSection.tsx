@@ -161,6 +161,41 @@ const projects = [
     category: "GenAI",
     github: "https://github.com/keshav-077/multimodal-generation-ai",
   },
+  {
+    title: "Medical Chatbot (RAG)",
+    desc: "Intelligent medical chatbot powered by RAG architecture, combining LangChain orchestration with OpenAI GPT and Pinecone vector database for accurate, context-aware healthcare responses.",
+    tags: ["LangChain", "RAG", "OpenAI", "Pinecone"],
+    category: "NLP",
+    github: "https://github.com/keshav-077/medical-chatbot-rag",
+  },
+  {
+    title: "VertexAI RAG Implementation",
+    desc: "Complete Retrieval-Augmented Generation pipeline built on Google Cloud VertexAI, enabling context-aware AI responses through efficient document retrieval and LLM synthesis.",
+    tags: ["VertexAI", "RAG", "GCP", "LangChain"],
+    category: "NLP",
+    github: "https://github.com/keshav-077/vertexai-rag-implementation",
+  },
+  {
+    title: "VertexAI LLM Fine-Tuning",
+    desc: "Comprehensive supervised fine-tuning pipeline for large language models using Google Cloud VertexAI, covering data preparation, training configuration, and model deployment.",
+    tags: ["VertexAI", "Fine-Tuning", "GCP", "LLM"],
+    category: "AI/ML",
+    github: "https://github.com/keshav-077/vertexai-llm-finetuning",
+  },
+  {
+    title: "VertexAI Gemini Chatbot",
+    desc: "Production-ready conversational chatbot powered by Google's Gemini model through VertexAI, featuring streaming responses and optimized prompt engineering for real-world deployment.",
+    tags: ["Gemini", "VertexAI", "GCP", "Chatbot"],
+    category: "AI/ML",
+    github: "https://github.com/keshav-077/vertexai-gemini-chatbot",
+  },
+  {
+    title: "Chainlit LLM Assistant",
+    desc: "Conversational AI application built with the Chainlit framework, delivering intuitive LLM-powered interactions with rich UI elements and seamless chat-based workflows.",
+    tags: ["Chainlit", "LLM", "Python", "AI"],
+    category: "AI/ML",
+    github: "https://github.com/keshav-077/chainlit-llm-assistant",
+  },
 ];
 
 const ProjectsSection = () => {
