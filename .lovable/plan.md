@@ -1,67 +1,34 @@
+# Plan: Export Complete Portfolio Content to DOCX
 
+Generate a comprehensive Word document (`.docx`) containing every piece of content from your portfolio website, organized section by section.
 
-# Portfolio Website for Keshavardhan Makireddi — AI Engineer
+## What will be included
 
-A modern, futuristic dark-themed portfolio website inspired by the Dribbble reference, featuring glassmorphism, vibrant gradient accents (deep blue, violet, cyan), smooth scroll animations, and AI-inspired visual elements.
+The document will mirror the portfolio structure and extract all visible content, descriptions, metadata, and links from each component file.
 
----
+### Sections to extract
 
-## 1. Navigation & Layout
-- Fixed top navbar with logo/name, smooth-scroll links to all sections, and a gradient CTA button ("Hire Me" / "Contact")
-- Smooth scrolling single-page layout with section transitions
-- Fully responsive across desktop, tablet, and mobile
+1. **Hero Section** — name, headline, tagline, bio, all CTAs, stats counters
+2. **About Me** — full bio paragraphs, career vision, all stats (projects, internships, publications), education entries (IIM Visakhapatnam MBA + IIIT Nagpur B.Tech) with degree, program, school, location, period, full descriptions, links
+3. **Work Experience** — all 3 roles (C5i, Infoteck Solutions, IIIT Nagpur) with company, URL, location, period, and every bullet point
+4. **Publications** — IEEE paper details and link
+5. **Projects** — every project (all 27+) with title, full description, tech stack tags, category, and GitHub link
+6. **Skills & Expertise** — all 7 categories with every individual skill listed
+7. **Certifications** — every certification (NVIDIA, IBM, Udemy) with issuer and link
+8. **Achievements** — Hackbyte 3.0, esports wins, etc.
+9. **Contact** — email, phone, social links, form fields
+10. **Footer** — any tagline / copy
 
-## 2. Hero Section
-- Large hero with AI-inspired animated background (gradient mesh, subtle particle/neural network lines using CSS animations)
-- Professional profile photo with a glowing gradient border
-- Bold headline: **"AI Engineer | Generative AI | Multi-Agent Systems | ML Researcher"**
-- Short bio paragraph highlighting expertise
-- Three CTA buttons: **View Projects**, **Download Resume**, **Contact Me**
-- Animated stats counters (projects completed, internships, publications)
+## Technical approach
 
-## 3. About Section
-- Detailed bio with a professional tone covering AI engineering journey and research interests
-- Education cards with institution logos/icons:
-  - B.Tech CSE (AI & ML) — IIIT Nagpur (2022–2026)
-  - MBA (PGPMCI) — IIM Visakhapatnam (2026–2028)
-- Career vision statement
+- Read every section component file to extract exact source-of-truth content (no paraphrasing).
+- Build the file using `docx-js` per the docx skill (Arial default, proper headings H1/H2/H3, bullet lists via `LevelFormat.BULLET`, smart quotes, US Letter page size).
+- Structure: Title page → Table-of-contents-style section list → Each section as H1 with content underneath.
+- Project entries rendered as H3 + description + "Tech: ..." line + GitHub link as ExternalHyperlink.
+- Save to `/mnt/documents/keshavardhan-portfolio-content.docx`.
+- QA: convert to PDF + page images via LibreOffice and visually inspect each page for layout issues before delivering.
+- Deliver via `<presentation-artifact>` tag.
 
-## 4. Experience Timeline
-- Vertical timeline with glowing accent line and company icons
-- Three experience entries (C5i, Infoteck Solutions, IIIT Nagpur) with role, duration, location, and bullet-point accomplishments
-- Glassmorphism cards for each entry
+## Deliverable
 
-## 5. Projects Portfolio
-- Grid of interactive project cards with hover effects (scale + glow)
-- Each card shows: project title, brief description, tech stack tags (badges), and GitHub link icon
-- Featured projects: Border Security System, DeepFake Detection, Language Translation, Source Code Chatbot, Sign Language Detection, RL Music Recommendation, Earthquake Prediction, Crop Disease Detection
-- Filter/category tabs (optional) for AI/ML, Computer Vision, NLP, etc.
-
-## 6. Skills & Expertise
-- Categorized skill sections with visual badge pills
-- Categories: Programming, AI/ML & Gen AI, Frameworks, Data & Cloud, Tools, AI Automation
-- Gradient-bordered category cards with icon headers
-
-## 7. Publications & Certifications
-- Publication card for IEEE paper with link
-- Certification cards for NVIDIA and IBM with clickable verification links
-- Clean card layout with institution icons
-
-## 8. Achievements
-- Badge/icon-based display for hackathon results and esports wins
-- Hackbyte 3.0 Top 5 highlight with trophy icon
-- Esports tournament wins with gaming icons
-
-## 9. Contact Section
-- "Say Hi" heading with gradient text (matching reference design)
-- Contact form (Name, Email, Subject, Message) with glassmorphism styling
-- Direct contact info: email, phone
-- Social media icon links: GitHub, LinkedIn
-- Form uses client-side validation (no backend needed initially)
-
-## Design System
-- **Theme**: Dark mode with deep navy background (#0a0a1a), violet/cyan/blue gradient accents
-- **Typography**: Clean sans-serif (Inter or similar)
-- **Effects**: Glassmorphism cards, gradient borders, subtle glow effects, smooth fade-in scroll animations
-- **AI Visuals**: CSS-based circuit/grid patterns, gradient mesh backgrounds
-
+A single downloadable `.docx` containing 100% of the portfolio's textual content, ready to reuse for resumes, applications, or rewrites.
