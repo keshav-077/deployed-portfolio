@@ -1,49 +1,38 @@
-@import url('https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
+    --background: 30 20% 95%;
+    --foreground: 205 32% 16%;
 
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 205 32% 16%;
 
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 205 32% 16%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 205 32% 16%;
+    --primary-foreground: 30 20% 95%;
 
-    --secondary: 0 0% 8%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 30 20% 95%;
+    --secondary-foreground: 205 32% 16%;
 
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 55%;
+    --muted: 205 18% 46%;
+    --muted-foreground: 30 20% 95%;
 
-    --accent: 0 0% 14%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 10 65% 47%;
+    --accent-foreground: 30 20% 95%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 14%;
-    --input: 0 0% 14%;
-    --ring: 0 0% 100%;
+    --border: 205 32% 16% / 0.1;
+    --input: 205 32% 16% / 0.1;
+    --ring: 205 32% 16%;
 
-    --radius: 0.75rem;
-
-    --sidebar-background: 0 0% 2%;
-    --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 0 0% 100%;
-    --sidebar-primary-foreground: 0 0% 0%;
-    --sidebar-accent: 0 0% 10%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 14%;
-    --sidebar-ring: 0 0% 100%;
+    --radius: 0.5rem;
   }
 }
 
@@ -53,109 +42,56 @@
   }
 
   html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth;
   }
 
   body {
-    @apply bg-background text-foreground;
-    font-family: 'General Sans', system-ui, -apple-system, sans-serif;
+    @apply bg-background text-foreground font-sans;
+    font-size: 17px;
+    line-height: 1.65;
   }
 }
 
-@layer utilities {
-  .glass {
-    @apply bg-card/40 backdrop-blur-xl border border-border/50;
-  }
-
-  .gradient-text {
-    @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(144.5deg, hsl(0 0% 100%) 28%, hsl(0 0% 0% / 0) 115%);
-  }
-
-  .gradient-text-accent {
-    @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(0 0% 50%) 100%);
-  }
-
-  .gradient-border {
-    position: relative;
-  }
-
-  .gradient-border::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    padding: 1px;
-    background: linear-gradient(135deg, hsl(0, 0%, 40%), hsl(0, 0%, 20%));
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
-  }
-
-  .glow {
-    box-shadow: 0 0 30px -5px hsl(0 0% 100% / 0.1), 0 0 60px -10px hsl(0 0% 100% / 0.05);
-  }
-
-  .glow-sm {
-    box-shadow: 0 0 15px -3px hsl(0 0% 100% / 0.15);
-  }
-
-  .pill-button {
-    @apply relative rounded-full;
-  }
-
-  .pill-button-glow::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 20%;
-    right: 20%;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, hsl(0 0% 100% / 0.6), transparent);
-    filter: blur(1px);
-    pointer-events: none;
-  }
+.font-display {
+  font-family: 'Fraunces', serif;
 }
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
-  50% { transform: translateY(-20px) rotate(3deg); opacity: 0.6; }
+.font-mono {
+  font-family: 'DM Mono', monospace;
 }
 
-@keyframes pulse-glow {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 0.8; }
+/* ── CUSTOM ANIMATIONS FROM COASTAL BOLD ── */
+.ease-custom {
+  transition-timing-function: cubic-bezier(0.25, 0, 0.15, 1);
 }
 
-@keyframes grid-move {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(40px); }
+.reveal-text {
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.9s cubic-bezier(0.25, 0, 0.15, 1);
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+.reveal-text.is-in {
+  clip-path: inset(0 0% 0 0);
 }
 
-.animate-float-delay {
-  animation: float 8s ease-in-out 2s infinite;
+.stagger-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.25, 0, 0.15, 1), transform 0.7s cubic-bezier(0.25, 0, 0.15, 1);
 }
 
-.animate-pulse-glow {
-  animation: pulse-glow 3s ease-in-out infinite;
+.stagger-in.is-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.animate-grid-move {
-  animation: grid-move 20s linear infinite;
+.blur-in {
+  opacity: 0;
+  filter: blur(12px);
+  transition: opacity 0.7s cubic-bezier(0.25, 0, 0.15, 1), filter 0.7s cubic-bezier(0.25, 0, 0.15, 1);
 }
 
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-@keyframes marquee-reverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0); }
+.blur-in.is-in {
+  opacity: 1;
+  filter: blur(0);
 }

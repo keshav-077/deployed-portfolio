@@ -12,3 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://keshav-makireddi.vercel.app/sitemap.xml
