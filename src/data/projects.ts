@@ -13,19 +13,139 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   // ---------------------------------------------------------------------------
+  // Production AI & full-stack (featured)
+  // ---------------------------------------------------------------------------
+  {
+    id: 'ledgeriq',
+    name: 'LedgerIQ',
+    description:
+      'Agentic B2B financial reconciliation platform that matches ledger entries, surfaces discrepancies, and routes exceptions through human-in-the-loop approval with audit trails.',
+    category: 'LLM & RAG',
+    techStack: ['FastAPI', 'React', 'MongoDB', 'LangGraph', 'Python'],
+    githubUrl:
+      'https://github.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation',
+    liveUrl: 'http://54.66.101.162/',
+    previewSrc: '/projects/ledgeriq/preview.gif',
+    previewPoster: '/projects/ledgeriq/poster.jpg',
+  },
+  {
+    id: 'invoiceflow-ai',
+    name: 'Zamp Invoice Processing',
+    description:
+      'End-to-end AP automation: ingest invoice PDFs or photos, extract fields with vision LLMs, validate against PO master data, and auto-approve or route exceptions with a full audit trail.',
+    category: 'LLM & RAG',
+    techStack: ['FastAPI', 'React', 'Gemini', 'SQLite', 'Inngest'],
+    githubUrl: 'https://github.com/keshav-077/zamp-Invoice-processing-from-PDF-to-decision',
+    liveUrl: 'https://zamp-invoice-processing-from-pdf-to.vercel.app',
+  },
+  {
+    id: 'paperloom',
+    name: 'PaperLoom',
+    description:
+      'Research paper studio for tracing claims to sources, verifying evidence, and producing structured research output with an agent-ready workflow.',
+    category: 'LLM & RAG',
+    techStack: ['Next.js', 'TypeScript', 'Cloud Run', 'RAG'],
+    githubUrl: 'https://github.com/keshav-077/paperloom',
+    liveUrl: 'https://paperloom-40439816779.asia-south1.run.app/',
+    previewSrc: '/projects/paperloom/preview.gif',
+    previewPoster: '/projects/paperloom/poster.jpg',
+  },
+  {
+    id: 'neuralfolio',
+    name: 'NeuralFolio',
+    description:
+      'Deep reinforcement learning portfolio manager comparing PPO, SAC, and TD3 agents for dynamic asset allocation with performance and stress-test analytics.',
+    category: 'Reinforcement Learning',
+    techStack: ['PyTorch', 'RL', 'Streamlit', 'Python'],
+    githubUrl: 'https://github.com/keshav-077/NeuralFolio---Deep-RL-Portfolio-Manager',
+  },
+  {
+    id: 'logisticshub',
+    name: 'LogisticsHub Analytics',
+    description:
+      'Last-mile logistics data platform: synthetic parcel generation, Snowflake + dbt transforms, and multiple ML models for operational analytics and forecasting.',
+    category: 'Cloud & Distributed Systems',
+    techStack: ['Snowflake', 'dbt', 'Python', 'ML'],
+    githubUrl: 'https://github.com/keshav-077/LogisticsHub-Analytics-Platform',
+  },
+  {
+    id: 'fraud-detection-mlops',
+    name: 'Fraud Detection MLOps',
+    description:
+      'MLOps pipeline for fraud detection with training, evaluation, and deployment workflows for production-grade model serving.',
+    category: 'Cloud & Distributed Systems',
+    techStack: ['Python', 'MLOps', 'Scikit-learn', 'MLflow'],
+    githubUrl: 'https://github.com/keshav-077/Fraud-Detection-MLOps-System',
+  },
+  {
+    id: 'attritionlens',
+    name: 'AttritionLens',
+    description:
+      'HR analytics Streamlit app predicting employee attrition with Random Forest, interactive EDA, and risk segmentation for people teams.',
+    category: 'AI for Agriculture & Science',
+    techStack: ['Streamlit', 'Scikit-learn', 'Pandas', 'Python'],
+    githubUrl: 'https://github.com/keshav-077/AttritionLens',
+  },
+  {
+    id: 'hinglish-turn-detector',
+    name: 'Hinglish Turn Detector',
+    description:
+      'Dual-scale Whisper-based model detecting speaker turn boundaries in Hinglish conversational audio for voice agents and ASR pipelines.',
+    category: 'NLP',
+    techStack: ['Whisper', 'PyTorch', 'Hugging Face', 'Gradio'],
+    githubUrl: 'https://github.com/keshav-077/hinglish-turn-detector',
+  },
+  {
+    id: 'multibax-sklearn',
+    name: 'multibax-sklearn',
+    description:
+      'Reproduction and experimentation with scikit-learn pipelines for multibax-style tabular ML workflows and benchmarking.',
+    category: 'AI for Agriculture & Science',
+    techStack: ['Scikit-learn', 'Python', 'Pandas'],
+    githubUrl: 'https://github.com/keshav-077/multibax-sklearn-reproduction',
+  },
+  {
+    id: 'espcn-super-resolution',
+    name: 'ESPCN Super-Resolution',
+    description:
+      'Efficient sub-pixel CNN for single-image super-resolution using sub-pixel convolution layers for upscaling with low compute cost.',
+    category: 'Computer Vision',
+    techStack: ['TensorFlow', 'CNN', 'Super-Resolution'],
+    githubUrl: 'https://github.com/keshav-077/ESPCN-SubPixel-Super-Resolution',
+  },
+  {
+    id: 'aeroscale-sr',
+    name: 'AeroScale SR',
+    description:
+      'Aerospace-oriented super-resolution and enhancement pipeline for satellite or aerial imagery using deep learning upscaling.',
+    category: 'Computer Vision',
+    techStack: ['PyTorch', 'Super-Resolution', 'Python'],
+    githubUrl: 'https://github.com/keshav-077/AeroScale-SR',
+  },
+  {
+    id: 'stock-price-predictor',
+    name: 'Stock Price Predictor',
+    description:
+      'Time-series forecasting models for equity prices with feature engineering, training pipelines, and evaluation metrics.',
+    category: 'AI for Agriculture & Science',
+    techStack: ['LSTM', 'Pandas', 'Scikit-learn', 'Python'],
+    githubUrl: 'https://github.com/keshav-077/stock-price-predictor',
+  },
+
+  // ---------------------------------------------------------------------------
   // LLM & RAG
   // ---------------------------------------------------------------------------
   {
     id: 'healthcare-assistant',
-    name: 'Healthcare Assistant',
+    name: 'Bloom Health Assistant',
     description:
-      'RAG-powered medical assistant that grounds LLM responses in a curated healthcare knowledge base, combining LangChain orchestration with OpenAI GPT and a Pinecone vector store for accurate, context-aware answers.',
+      'Medical RAG assistant with LangGraph orchestration, layered safety guardrails, MCP tooling, and a 21-table clinical data model — grounding every answer in retrieved sources.',
     category: 'LLM & RAG',
     techStack: ['LangChain', 'RAG', 'OpenAI', 'Pinecone'],
     githubUrl: 'https://github.com/keshav-077/medical-chatbot-rag',
     liveUrl: 'https://medical-chatbot-179320.vercel.app',
-    featured: true,
-    featureOrder: 1,
+    previewSrc: '/projects/healthcare-assistant/preview.gif',
+    previewPoster: '/projects/healthcare-assistant/poster.jpg',
     detail: {
       problem:
         'Patients and clinicians struggle to get quick, reliable answers from dense medical literature, and general-purpose chatbots hallucinate clinically unsafe information.',
@@ -52,8 +172,6 @@ export const projects: Project[] = [
     category: 'LLM & RAG',
     techStack: ['LangChain', 'RAG', 'FAISS', 'GPT'],
     githubUrl: 'https://github.com/keshav-077/source-code-analysis-using-langchain',
-    featured: true,
-    featureOrder: 3,
     detail: {
       problem:
         'Understanding a large, unfamiliar codebase is slow and manual, and keyword search misses semantic intent.',
@@ -125,29 +243,27 @@ export const projects: Project[] = [
     id: 'ai-border-security',
     name: 'AI-Driven Border Security & Strategic Management System',
     description:
-      'Real-time weapon detection and person re-identification pipeline for border security, combining YOLOv8 object detection with OSNet re-identification for high-accuracy threat monitoring.',
+      'Border surveillance notebooks and training pipeline combining classical face detection (Haar cascades) with LBPH face recognition for identity checks — align marketing copy with what the repo actually runs before claiming multi-cam OSNet re-ID.',
     category: 'Computer Vision',
-    techStack: ['YOLOv8', 'OSNet', 'OpenCV', 'Python'],
+    techStack: ['OpenCV', 'Haar Cascades', 'LBPH', 'Python', 'YOLO'],
     githubUrl:
       'https://github.com/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System',
-    featured: true,
-    featureOrder: 2,
     detail: {
       problem:
-        'Manual surveillance cannot reliably detect threats and re-identify individuals across multiple camera feeds in real time.',
+        'Manual border monitoring needs automated face detection and lightweight recognition without overstating what the codebase deploys today.',
       solution:
-        'A real-time pipeline that detects weapons and re-identifies people across cameras, feeding a strategic monitoring dashboard.',
+        'Notebook-driven CV workflows using Haar cascades for detection and LBPH for face recognition, with paths to extend toward modern detectors when weights and demos land in-repo.',
       architecture:
-        'YOLOv8 performs real-time weapon/object detection; OSNet handles person re-identification across camera feeds; OpenCV drives the video pipeline and alerting layer.',
+        'OpenCV capture and preprocessing, Haar-based face detection, LBPH recognizer for identity labels, and experiment artifacts for strategic monitoring scenarios.',
       features: [
-        'Real-time weapon detection',
-        'Cross-camera person re-identification',
-        'Live video processing pipeline',
-        'Threat alerting for strategic management',
+        'Haar cascade face detection',
+        'LBPH face recognition pipeline',
+        'OpenCV video / image workflows',
+        'Training and evaluation notebooks',
       ],
       challenges:
-        'Sustaining real-time inference throughput while keeping re-identification accurate across changing viewpoints and lighting.',
-      relatedTech: ['YOLOv8', 'OSNet', 'OpenCV'],
+        'Closing the gap between README claims (OSNet multi-cam re-ID) and shipped code by adding weights, demos, and honest evaluation.',
+      relatedTech: ['OpenCV', 'Haar Cascades', 'LBPH'],
     },
   },
   {
@@ -173,8 +289,6 @@ export const projects: Project[] = [
       'Gunicorn',
     ],
     githubUrl: 'https://github.com/keshav-077/intelligent-vehicle-recognition-platform',
-    featured: true,
-    featureOrder: 4,
     detail: {
       problem:
         'Automating reliable vehicle and license-plate recognition for access control and monitoring requires stitching detection, cropping, and OCR into a production-ready service.',
@@ -201,8 +315,6 @@ export const projects: Project[] = [
     category: 'Computer Vision',
     techStack: ['EfficientNet', 'BiLSTM', 'PyTorch', 'CNN'],
     githubUrl: 'https://github.com/keshav-077/DeepFake-Detection-using-Deep-Learning',
-    featured: true,
-    featureOrder: 6,
     detail: {
       problem:
         'Manipulated video ("deepfakes") erodes trust in digital media and is difficult to detect from single frames alone.',
@@ -336,8 +448,6 @@ export const projects: Project[] = [
     category: 'NLP',
     techStack: ['mBART', 'Pegasus', 'HuggingFace', 'NLP'],
     githubUrl: 'https://github.com/keshav-077/Language-Translation-and-Summarization',
-    featured: true,
-    featureOrder: 5,
     detail: {
       problem:
         'Cross-language document understanding and digesting long documents are slow, manual tasks that off-the-shelf tools handle poorly together.',
@@ -412,8 +522,6 @@ export const projects: Project[] = [
     category: 'Cloud & Distributed Systems',
     techStack: ['React', 'Go', 'PostgreSQL', 'Redis', 'Nginx', 'Docker'],
     githubUrl: 'https://github.com/keshav-077/cloudstack-messenger',
-    featured: true,
-    featureOrder: 7,
     detail: {
       problem:
         'Building a scalable, real-time messaging platform requires coordinating multiple services, persistence, and low-latency delivery.',
