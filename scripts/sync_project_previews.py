@@ -16,7 +16,11 @@ PROMPT_MANIFEST = ROOT / "scripts" / "portfolio_visual_prompts.json"
 SKIP_GENERIC = set()
 if PROMPT_MANIFEST.is_file():
     SKIP_GENERIC = set(json.loads(PROMPT_MANIFEST.read_text(encoding="utf-8"))["projects"].keys())
-SKIP_GENERIC |= {"intelligent-vehicle-recognition-alpr", "ai-border-security"}
+SKIP_GENERIC |= {
+    "intelligent-vehicle-recognition-alpr",
+    "ai-border-security",
+    "aeroscale-sr",
+}
 
 from doc36_common import PUBLIC, ffmpeg_bin
 
