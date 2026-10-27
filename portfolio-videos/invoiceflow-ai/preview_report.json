@@ -1,0 +1,12 @@
+{
+  "slug": "invoiceflow-ai",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "public_preview",
+  "is_real_run": false
+}

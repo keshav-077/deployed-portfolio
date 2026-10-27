@@ -1,0 +1,13 @@
+{
+  "slug": "dontcaught-ai-assistant",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "screen",
+  "is_real_run": true,
+  "title": "DontCaught \u2014 Stealth AI Desktop Assistant"
+}

@@ -24,7 +24,6 @@ const NAV_ITEMS: NavItem[] = [
   { id: "manifesto", label: "About", primary: true },
   { id: "experience", label: "Experience", primary: true },
   { id: "education", label: "Education" },
-  { id: "work", label: "Selected Work", primary: true },
   { id: "cases", label: "Projects", primary: true },
   { id: "publications", label: "Publications" },
   { id: "skills", label: "Skills" },

@@ -9,7 +9,7 @@
 import type { SeoConfig } from './types';
 
 // Single absolute canonical origin for the portfolio (R7.5).
-const CANONICAL_ORIGIN = 'https://keshav-makireddi.vercel.app';
+const CANONICAL_ORIGIN = 'https://keshavardhan-makireddi-portfolio.vercel.app';
 
 export const seoConfig: SeoConfig = {
   // Exactly one absolute canonical URL (R7.5).

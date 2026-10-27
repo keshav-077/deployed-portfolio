@@ -1,0 +1,320 @@
+[
+  {
+    "portfolioId": "ledgeriq",
+    "repoPath": "C:\\Github-all-repos\\Ledgeriq----Agentic-B2B-financial-reconciliation",
+    "kind": "web",
+    "docIndex": 14,
+    "liveUrl": "http://54.66.101.162/",
+    "preferLive": true,
+    "cwd": "frontend",
+    "startCommand": "npm run dev -- --host 127.0.0.1 --port 5173",
+    "baseUrl": "http://127.0.0.1:5173",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "invoiceflow-ai",
+    "repoPath": "C:\\Github-all-repos\\zamp-Invoice-processing-from-PDF-to-decision",
+    "kind": "web",
+    "docIndex": 29,
+    "liveUrl": "https://zamp-invoice-processing-from-pdf-to.vercel.app",
+    "preferLive": true,
+    "cwd": "frontend",
+    "startCommand": "npm run dev -- --host 127.0.0.1 --port 5174",
+    "baseUrl": "http://127.0.0.1:5174",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "paperloom",
+    "repoPath": "C:\\Github-all-repos\\trace-research-paper-studio",
+    "kind": "web",
+    "docIndex": 19,
+    "liveUrl": "https://paperloom-40439816779.asia-south1.run.app/",
+    "preferLive": false,
+    "cwd": ".",
+    "startCommand": "npm run dev -- --hostname 127.0.0.1 --port 3000",
+    "baseUrl": "http://127.0.0.1:3000",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "neuralfolio",
+    "repoPath": "C:\\Github-all-repos\\NeuralFolio---Deep-RL-Portfolio-Manager",
+    "kind": "streamlit",
+    "docIndex": 18,
+    "cwd": ".",
+    "startCommand": "streamlit run app.py --server.port 8502 --server.address 127.0.0.1",
+    "baseUrl": "http://127.0.0.1:8502",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "logisticshub",
+    "repoPath": "C:\\Github-all-repos\\LogisticsHub-Analytics-Platform",
+    "kind": "streamlit",
+    "docIndex": 33,
+    "cwd": ".",
+    "startCommand": "streamlit run streamlit_app.py --server.port 8504 --server.address 127.0.0.1",
+    "baseUrl": "http://127.0.0.1:8504",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "fraud-detection-mlops",
+    "repoPath": "C:\\Github-all-repos\\Fraud-Detection-MLOps-System",
+    "kind": "streamlit",
+    "docIndex": 12,
+    "cwd": ".",
+    "startCommand": "streamlit run app.py --server.port 8505 --server.address 127.0.0.1",
+    "baseUrl": "http://127.0.0.1:8505",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "attritionlens",
+    "repoPath": "C:\\Github-all-repos\\AttritionLens",
+    "kind": "streamlit",
+    "docIndex": 32,
+    "cwd": ".",
+    "startCommand": "streamlit run app.py --server.port 8503 --server.address 127.0.0.1",
+    "baseUrl": "http://127.0.0.1:8503",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "hinglish-turn-detector",
+    "repoPath": "C:\\Github-all-repos\\Turn-Detection-Model-Whisper-Tiny-Dual-Scale-Attention-Classification-Head-for-Low-Latency-Voice-AI-main",
+    "kind": "gradio",
+    "docIndex": 35,
+    "cwd": ".",
+    "startCommand": "python app.py",
+    "baseUrl": "http://127.0.0.1:7860",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "multibax-sklearn",
+    "repoPath": "C:\\Github-all-repos\\multibax-sklearn-main",
+    "kind": "none",
+    "docIndex": 36
+  },
+  {
+    "portfolioId": "espcn-super-resolution",
+    "repoPath": "C:\\Github-all-repos\\espcn-from-scratch",
+    "kind": "none",
+    "docIndex": 11
+  },
+  {
+    "portfolioId": "aeroscale-sr",
+    "repoPath": "C:\\Github-all-repos\\AeroScale-SR",
+    "kind": "none",
+    "docIndex": 3
+  },
+  {
+    "portfolioId": "stock-price-predictor",
+    "repoPath": "C:\\Github-all-repos\\stock-price-predictor",
+    "kind": "none",
+    "docIndex": 24
+  },
+  {
+    "portfolioId": "healthcare-assistant",
+    "repoPath": "C:\\Github-all-repos\\medical-chatbot-rag",
+    "kind": "web",
+    "docIndex": 15,
+    "liveUrl": "https://medical-chatbot-179320.vercel.app",
+    "preferLive": true,
+    "cwd": ".",
+    "startCommand": "streamlit run app.py --server.port 8501 --server.address 127.0.0.1",
+    "baseUrl": "http://127.0.0.1:8501",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "source-code-analysis-chatbot",
+    "repoPath": "C:\\Github-all-repos\\source-code-analysis-using-langchain",
+    "kind": "flask",
+    "docIndex": 23,
+    "startCommand": "python \"app.py\"",
+    "cwd": ".",
+    "baseUrl": "http://127.0.0.1:5000",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "vertexai-rag",
+    "repoPath": "C:\\Github-all-repos\\vertexai-rag-implementation",
+    "kind": "none",
+    "docIndex": 27
+  },
+  {
+    "portfolioId": "vertexai-llm-finetuning",
+    "repoPath": "C:\\Github-all-repos\\vertexai-llm-finetuning",
+    "kind": "none",
+    "docIndex": 26
+  },
+  {
+    "portfolioId": "vertexai-gemini-chatbot",
+    "repoPath": "C:\\Github-all-repos\\vertexai-gemini-chatbot",
+    "kind": "flask",
+    "docIndex": 25,
+    "startCommand": "python \"app.py\"",
+    "cwd": ".",
+    "baseUrl": "http://127.0.0.1:5000",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "chainlit-llm-assistant",
+    "repoPath": "C:\\Github-all-repos\\chainlit-llm-assistant",
+    "kind": "chainlit",
+    "cwd": ".",
+    "startCommand": "chainlit run app.py --port 7861",
+    "baseUrl": "http://127.0.0.1:7861",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "vibe-apply-job-automation",
+    "repoPath": "C:\\Github-all-repos\\-Job-Application-Assistant-HackByte3.0",
+    "kind": "web",
+    "docIndex": 1,
+    "cwd": "web-application",
+    "startCommand": "set BROWSER=none&& set PORT=5175&& npm start",
+    "baseUrl": "http://127.0.0.1:5175",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "ai-border-security",
+    "repoPath": "C:\\Github-all-repos\\AI-Driven-Border-Security-and-Strategic-Management-System",
+    "kind": "none",
+    "docIndex": 4
+  },
+  {
+    "portfolioId": "intelligent-vehicle-recognition-alpr",
+    "repoPath": "C:\\Github-all-repos\\intelligent-vehicle-recognition-platform",
+    "kind": "flask",
+    "docIndex": 31,
+    "cwd": ".",
+    "startCommand": "python app.py",
+    "baseUrl": "http://127.0.0.1:5000",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "deepfake-detection",
+    "repoPath": "C:\\Github-all-repos\\DeepFake-Detection-using-Deep-Learning",
+    "kind": "none",
+    "docIndex": 9
+  },
+  {
+    "portfolioId": "object-detection-hackbyte",
+    "repoPath": "C:\\Github-all-repos\\Duality-HackByte-Object-Detection-using-YOLOv8s",
+    "kind": "none"
+  },
+  {
+    "portfolioId": "sign-language-detection",
+    "repoPath": "C:\\Github-all-repos\\Sign_Language_Detection",
+    "kind": "none",
+    "docIndex": 22
+  },
+  {
+    "portfolioId": "dcgan-image-generation",
+    "repoPath": "C:\\Github-all-repos\\1mage-Generation-using-DCGAN",
+    "kind": "none",
+    "docIndex": 2
+  },
+  {
+    "portfolioId": "vae-digit-generation",
+    "repoPath": "C:\\Github-all-repos\\Digit-Generation-Using-VAE",
+    "kind": "none",
+    "docIndex": 10
+  },
+  {
+    "portfolioId": "progressive-gan",
+    "repoPath": "C:\\Github-all-repos\\Progressive-GAN-Implementation",
+    "kind": "none",
+    "docIndex": 20
+  },
+  {
+    "portfolioId": "wgan",
+    "repoPath": "C:\\Github-all-repos\\WGAN-GAN-Implementation",
+    "kind": "none",
+    "docIndex": 28
+  },
+  {
+    "portfolioId": "srgan",
+    "repoPath": "C:\\Github-all-repos\\Super-Resolution-GAN-SRGAN",
+    "kind": "none",
+    "docIndex": 30
+  },
+  {
+    "portfolioId": "cyclegan",
+    "repoPath": "C:\\Github-all-repos\\CycleGAN-Image-Translation",
+    "kind": "none",
+    "docIndex": 8
+  },
+  {
+    "portfolioId": "ddpm-diffusion",
+    "repoPath": "C:\\Github-all-repos\\Diffusion-Models-Implementation",
+    "kind": "none"
+  },
+  {
+    "portfolioId": "clothes-inpainting-sam",
+    "repoPath": "C:\\Github-all-repos\\clothes-inpainting-sam",
+    "kind": "none",
+    "docIndex": 5
+  },
+  {
+    "portfolioId": "multimodal-generation-ai",
+    "repoPath": "C:\\Github-all-repos\\multimodal-generation-ai",
+    "kind": "none",
+    "docIndex": 16
+  },
+  {
+    "portfolioId": "language-translation-summarization",
+    "repoPath": "C:\\Github-all-repos\\Language-Translation-and-Summarization",
+    "kind": "none",
+    "docIndex": 13
+  },
+  {
+    "portfolioId": "sentiment-analysis-engine",
+    "repoPath": "C:\\Github-all-repos\\Sentiment_analysis",
+    "kind": "none",
+    "docIndex": 21
+  },
+  {
+    "portfolioId": "rl-music-recommendation",
+    "repoPath": "C:\\Github-all-repos\\Music-Recommend-system-using-Reinforcement-Learning",
+    "kind": "none",
+    "docIndex": 17
+  },
+  {
+    "portfolioId": "crop-disease-detection",
+    "repoPath": "C:\\Github-all-repos\\Crop_Detection",
+    "kind": "none",
+    "docIndex": 7
+  },
+  {
+    "portfolioId": "earthquake-prediction",
+    "repoPath": "C:\\Github-all-repos\\Earthquake_prediction",
+    "kind": "none",
+    "docIndex": 34
+  },
+  {
+    "portfolioId": "cloudstack-messenger",
+    "repoPath": "C:\\Github-all-repos\\cloudstack-messenger",
+    "kind": "web",
+    "docIndex": 6,
+    "cwd": "frontend",
+    "startCommand": "npm run dev -- --host 127.0.0.1 --port 5176",
+    "baseUrl": "http://127.0.0.1:5176",
+    "readyPath": "/"
+  },
+  {
+    "portfolioId": "broken-semantic-search",
+    "repoPath": "C:\\Github-all-repos\\broken-semantic-search-v3-fixed",
+    "kind": "none"
+  },
+  {
+    "portfolioId": "durable-queue-wal",
+    "repoPath": "C:\\Github-all-repos\\Durable-Queue-WAL-Recovery-Implementation",
+    "kind": "none"
+  },
+  {
+    "portfolioId": "dontcaught-ai-assistant",
+    "repoPath": "C:\\Github-all-repos\\Dontcaught-AI-assistant",
+    "kind": "web",
+    "cwd": ".",
+    "startCommand": "npm run dev -- --host 127.0.0.1 --port 5177",
+    "baseUrl": "http://127.0.0.1:5177",
+    "readyPath": "/"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "slug": "vertexai-llm-finetuning",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "screen",
+  "is_real_run": true,
+  "title": "VertexAI LLM Fine-Tuning"
+}

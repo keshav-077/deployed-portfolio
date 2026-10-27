@@ -1,0 +1,13 @@
+{
+  "slug": "aeroscale-sr",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "screen",
+  "is_real_run": true,
+  "title": "AeroScale SR"
+}

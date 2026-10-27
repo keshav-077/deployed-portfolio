@@ -1,0 +1,13 @@
+{
+  "slug": "clothes-inpainting-sam",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "cached",
+  "is_real_run": false,
+  "title": "Clothes Inpainting with SAM"
+}

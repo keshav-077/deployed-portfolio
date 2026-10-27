@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+scripts/__pycache__/
+scripts/media_cache/
+portfolio-videos/**/source_footage/
+portfolio-videos/**/renders/
 
 # Editor directories and files
 .vscode/*

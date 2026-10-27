@@ -1,0 +1,43 @@
+/** Portfolio ids covered by PROJECTS_DOCUMENTATION.md items 1–36 (video previews). */
+export const DOC36_IDS = new Set([
+  'vibe-apply-job-automation',
+  'dcgan-image-generation',
+  'aeroscale-sr',
+  'ai-border-security',
+  'clothes-inpainting-sam',
+  'cloudstack-messenger',
+  'crop-disease-detection',
+  'cyclegan',
+  'deepfake-detection',
+  'vae-digit-generation',
+  'espcn-super-resolution',
+  'fraud-detection-mlops',
+  'language-translation-summarization',
+  'ledgeriq',
+  'healthcare-assistant',
+  'multimodal-generation-ai',
+  'rl-music-recommendation',
+  'neuralfolio',
+  'paperloom',
+  'progressive-gan',
+  'sentiment-analysis-engine',
+  'sign-language-detection',
+  'source-code-analysis-chatbot',
+  'stock-price-predictor',
+  'vertexai-gemini-chatbot',
+  'vertexai-llm-finetuning',
+  'vertexai-rag',
+  'wgan',
+  'invoiceflow-ai',
+  'srgan',
+  'intelligent-vehicle-recognition-alpr',
+  'attritionlens',
+  'logisticshub',
+  'earthquake-prediction',
+  'hinglish-turn-detector',
+  'multibax-sklearn',
+]);
+
+export function isDoc36Project(id: string): boolean {
+  return DOC36_IDS.has(id);
+}

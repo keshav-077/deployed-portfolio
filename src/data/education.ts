@@ -2,7 +2,7 @@
 // Ordered reverse-chronologically with IIM Visakhapatnam first (R2.4).
 // Enriched with focus, coursework, learning highlights, technologies, and
 // academic achievements for the premium Education timeline. Institution logos
-// are omitted (no owner-provided assets) and rendered as a monogram fallback.
+// use local SVG wordmarks when official raster downloads were unavailable.
 
 import type { Education } from './types';
 
@@ -28,6 +28,8 @@ export const education: Education[] = [
       'Leadership, teamwork, and stakeholder communication',
     ],
     technologies: ['Power BI', 'Excel', 'SQL', 'Business Analytics'],
+    logo: '/logos/iim-visakhapatnam.jpg',
+    logoVariant: 'wide',
   },
   {
     institution: 'Indian Institute of Information Technology, Nagpur (IIIT Nagpur)',
@@ -66,5 +68,7 @@ export const education: Education[] = [
       'Top 10 — Workato AI Automation Hackathon',
       'IEEE Xplore 2026 publication',
     ],
+    logo: '/logos/iiit-nagpur.svg',
+    logoVariant: 'square',
   },
 ];

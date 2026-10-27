@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { projects } from "@/data/projects";
+import { displayProjects } from "@/lib/enrichProjects";
 import type { Project } from "@/data/types";
 import ProjectDetailModal from "./ProjectDetailModal";
 
@@ -12,8 +12,8 @@ import ProjectDetailModal from "./ProjectDetailModal";
  * shared ProjectDetailModal with the project's rich case-study `detail`.
  */
 
-// Flagship projects only, in curated order (featureOrder ascending).
-const featuredProjects: Project[] = projects
+// Tier-1 lead projects only, in curated order (featureOrder ascending).
+const featuredProjects: Project[] = displayProjects
   .filter((p) => p.featured)
   .sort((a, b) => (a.featureOrder ?? 0) - (b.featureOrder ?? 0));
 
@@ -148,7 +148,7 @@ const CoastalWork = () => {
             }`}
             style={{ transitionDelay: "500ms" }}
           >
-            {projects.length} Projects Shipped
+            {displayProjects.length} total — full grid below
           </span>
         </div>
       </div>

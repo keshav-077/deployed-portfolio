@@ -1,0 +1,506 @@
+{
+  "ledgeriq": {
+    "slug": "ledgeriq",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ledgeriq\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ledgeriq\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ledgeriq\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "invoiceflow-ai": {
+    "slug": "invoiceflow-ai",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\invoiceflow-ai\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "paperloom": {
+    "slug": "paperloom",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\paperloom\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\paperloom\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\paperloom\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "neuralfolio": {
+    "slug": "neuralfolio",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "logisticshub": {
+    "slug": "logisticshub",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\logisticshub\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\logisticshub\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\logisticshub\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "fraud-detection-mlops": {
+    "slug": "fraud-detection-mlops",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\fraud-detection-mlops\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\fraud-detection-mlops\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\fraud-detection-mlops\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "attritionlens": {
+    "slug": "attritionlens",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\attritionlens\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\attritionlens\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\attritionlens\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "hinglish-turn-detector": {
+    "slug": "hinglish-turn-detector",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "multibax-sklearn": {
+    "slug": "multibax-sklearn",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multibax-sklearn\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multibax-sklearn\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multibax-sklearn\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "espcn-super-resolution": {
+    "slug": "espcn-super-resolution",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\espcn-super-resolution\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\espcn-super-resolution\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\espcn-super-resolution\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "aeroscale-sr": {
+    "slug": "aeroscale-sr",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\aeroscale-sr\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "stock-price-predictor": {
+    "slug": "stock-price-predictor",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\stock-price-predictor\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\stock-price-predictor\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\stock-price-predictor\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "healthcare-assistant": {
+    "slug": "healthcare-assistant",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\healthcare-assistant\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\healthcare-assistant\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\healthcare-assistant\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "source-code-analysis-chatbot": {
+    "slug": "source-code-analysis-chatbot",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\source-code-analysis-chatbot\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\source-code-analysis-chatbot\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\source-code-analysis-chatbot\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "vertexai-rag": {
+    "slug": "vertexai-rag",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "vertexai-llm-finetuning": {
+    "slug": "vertexai-llm-finetuning",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-llm-finetuning\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "vertexai-gemini-chatbot": {
+    "slug": "vertexai-gemini-chatbot",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-gemini-chatbot\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-gemini-chatbot\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-gemini-chatbot\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "chainlit-llm-assistant": {
+    "slug": "chainlit-llm-assistant",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\chainlit-llm-assistant\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\chainlit-llm-assistant\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\chainlit-llm-assistant\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "vibe-apply-job-automation": {
+    "slug": "vibe-apply-job-automation",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vibe-apply-job-automation\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vibe-apply-job-automation\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vibe-apply-job-automation\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "ai-border-security": {
+    "slug": "ai-border-security",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "slug": "intelligent-vehicle-recognition-alpr",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "deepfake-detection": {
+    "slug": "deepfake-detection",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "object-detection-hackbyte": {
+    "slug": "object-detection-hackbyte",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\object-detection-hackbyte\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\object-detection-hackbyte\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\object-detection-hackbyte\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "sign-language-detection": {
+    "slug": "sign-language-detection",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sign-language-detection\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sign-language-detection\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sign-language-detection\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "dcgan-image-generation": {
+    "slug": "dcgan-image-generation",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dcgan-image-generation\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dcgan-image-generation\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dcgan-image-generation\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "vae-digit-generation": {
+    "slug": "vae-digit-generation",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vae-digit-generation\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vae-digit-generation\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vae-digit-generation\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "progressive-gan": {
+    "slug": "progressive-gan",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\progressive-gan\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\progressive-gan\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\progressive-gan\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "wgan": {
+    "slug": "wgan",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\wgan\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\wgan\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\wgan\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "srgan": {
+    "slug": "srgan",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\srgan\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\srgan\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\srgan\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "cyclegan": {
+    "slug": "cyclegan",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cyclegan\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cyclegan\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cyclegan\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "ddpm-diffusion": {
+    "slug": "ddpm-diffusion",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ddpm-diffusion\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ddpm-diffusion\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ddpm-diffusion\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "clothes-inpainting-sam": {
+    "slug": "clothes-inpainting-sam",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\clothes-inpainting-sam\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "multimodal-generation-ai": {
+    "slug": "multimodal-generation-ai",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "language-translation-summarization": {
+    "slug": "language-translation-summarization",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\language-translation-summarization\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\language-translation-summarization\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\language-translation-summarization\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "sentiment-analysis-engine": {
+    "slug": "sentiment-analysis-engine",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sentiment-analysis-engine\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sentiment-analysis-engine\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\sentiment-analysis-engine\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "rl-music-recommendation": {
+    "slug": "rl-music-recommendation",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\rl-music-recommendation\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\rl-music-recommendation\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\rl-music-recommendation\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "crop-disease-detection": {
+    "slug": "crop-disease-detection",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\crop-disease-detection\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\crop-disease-detection\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\crop-disease-detection\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "earthquake-prediction": {
+    "slug": "earthquake-prediction",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\earthquake-prediction\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\earthquake-prediction\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\earthquake-prediction\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "cloudstack-messenger": {
+    "slug": "cloudstack-messenger",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cloudstack-messenger\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cloudstack-messenger\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\cloudstack-messenger\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "broken-semantic-search": {
+    "slug": "broken-semantic-search",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\broken-semantic-search\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\broken-semantic-search\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\broken-semantic-search\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "durable-queue-wal": {
+    "slug": "durable-queue-wal",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\durable-queue-wal\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\durable-queue-wal\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\durable-queue-wal\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  },
+  "dontcaught-ai-assistant": {
+    "slug": "dontcaught-ai-assistant",
+    "duration_target": "5.0-8.0s",
+    "paths": {
+      "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\final.mp4",
+      "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\final.webm",
+      "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\dontcaught-ai-assistant\\poster.jpg"
+    },
+    "status": "ok",
+    "mode": "public_preview",
+    "is_real_run": false
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "ledgeriq": {
+    "previewSrc": "/projects/ledgeriq/preview.gif",
+    "source": "repo-gif"
+  },
+  "invoiceflow-ai": {
+    "previewSrc": "/projects/invoiceflow-ai/preview.jpg",
+    "source": "generated"
+  },
+  "paperloom": {
+    "previewSrc": "/projects/paperloom/preview.gif",
+    "source": "repo-gif"
+  },
+  "neuralfolio": {
+    "previewSrc": "/projects/neuralfolio/preview.jpg",
+    "source": "generated"
+  },
+  "logisticshub": {
+    "previewSrc": "/projects/logisticshub/preview.jpg",
+    "source": "generated"
+  },
+  "fraud-detection-mlops": {
+    "previewSrc": "/projects/fraud-detection-mlops/preview.jpg",
+    "source": "generated"
+  },
+  "attritionlens": {
+    "previewSrc": "/projects/attritionlens/preview.jpg",
+    "source": "generated"
+  },
+  "hinglish-turn-detector": {
+    "previewSrc": "/projects/hinglish-turn-detector/preview.jpg",
+    "source": "generated"
+  },
+  "multibax-sklearn": {
+    "previewSrc": "/projects/multibax-sklearn/preview.jpg",
+    "source": "generated"
+  },
+  "espcn-super-resolution": {
+    "previewSrc": "/projects/espcn-super-resolution/preview.jpg",
+    "source": "generated"
+  },
+  "aeroscale-sr": {
+    "previewSrc": "/projects/aeroscale-sr/preview.jpg",
+    "source": "generated"
+  },
+  "stock-price-predictor": {
+    "previewSrc": "/projects/stock-price-predictor/preview.jpg",
+    "source": "generated"
+  },
+  "healthcare-assistant": {
+    "previewSrc": "/projects/healthcare-assistant/preview.gif",
+    "source": "repo-gif"
+  },
+  "source-code-analysis-chatbot": {
+    "previewSrc": "/projects/source-code-analysis-chatbot/preview.jpg",
+    "source": "generated"
+  },
+  "vertexai-rag": {
+    "previewSrc": "/projects/vertexai-rag/preview.jpg",
+    "source": "generated"
+  },
+  "vertexai-llm-finetuning": {
+    "previewSrc": "/projects/vertexai-llm-finetuning/preview.jpg",
+    "source": "generated"
+  },
+  "vertexai-gemini-chatbot": {
+    "previewSrc": "/projects/vertexai-gemini-chatbot/preview.jpg",
+    "source": "generated"
+  },
+  "chainlit-llm-assistant": {
+    "previewSrc": "/projects/chainlit-llm-assistant/preview.jpg",
+    "source": "generated"
+  },
+  "vibe-apply-job-automation": {
+    "previewSrc": "/projects/vibe-apply-job-automation/preview.jpg",
+    "source": "generated"
+  },
+  "ai-border-security": {
+    "previewSrc": "/projects/ai-border-security/preview.jpg",
+    "source": "generated"
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "previewSrc": "/projects/intelligent-vehicle-recognition-alpr/preview.jpg",
+    "source": "generated"
+  },
+  "deepfake-detection": {
+    "previewSrc": "/projects/deepfake-detection/preview.jpg",
+    "source": "generated"
+  },
+  "object-detection-hackbyte": {
+    "previewSrc": "/projects/object-detection-hackbyte/preview.jpg",
+    "source": "generated"
+  },
+  "sign-language-detection": {
+    "previewSrc": "/projects/sign-language-detection/preview.jpg",
+    "source": "generated"
+  },
+  "dcgan-image-generation": {
+    "previewSrc": "/projects/dcgan-image-generation/preview.jpg",
+    "source": "generated"
+  },
+  "vae-digit-generation": {
+    "previewSrc": "/projects/vae-digit-generation/preview.jpg",
+    "source": "generated"
+  },
+  "progressive-gan": {
+    "previewSrc": "/projects/progressive-gan/preview.jpg",
+    "source": "generated"
+  },
+  "wgan": {
+    "previewSrc": "/projects/wgan/preview.jpg",
+    "source": "generated"
+  },
+  "srgan": {
+    "previewSrc": "/projects/srgan/preview.jpg",
+    "source": "generated"
+  },
+  "cyclegan": {
+    "previewSrc": "/projects/cyclegan/preview.jpg",
+    "source": "generated"
+  },
+  "ddpm-diffusion": {
+    "previewSrc": "/projects/ddpm-diffusion/preview.jpg",
+    "source": "generated"
+  },
+  "clothes-inpainting-sam": {
+    "previewSrc": "/projects/clothes-inpainting-sam/preview.jpg",
+    "source": "generated"
+  },
+  "multimodal-generation-ai": {
+    "previewSrc": "/projects/multimodal-generation-ai/preview.jpg",
+    "source": "generated"
+  },
+  "language-translation-summarization": {
+    "previewSrc": "/projects/language-translation-summarization/preview.jpg",
+    "source": "generated"
+  },
+  "sentiment-analysis-engine": {
+    "previewSrc": "/projects/sentiment-analysis-engine/preview.jpg",
+    "source": "generated"
+  },
+  "rl-music-recommendation": {
+    "previewSrc": "/projects/rl-music-recommendation/preview.jpg",
+    "source": "generated"
+  },
+  "crop-disease-detection": {
+    "previewSrc": "/projects/crop-disease-detection/preview.jpg",
+    "source": "generated"
+  },
+  "earthquake-prediction": {
+    "previewSrc": "/projects/earthquake-prediction/preview.jpg",
+    "source": "generated"
+  },
+  "cloudstack-messenger": {
+    "previewSrc": "/projects/cloudstack-messenger/preview.jpg",
+    "source": "generated"
+  },
+  "broken-semantic-search": {
+    "previewSrc": "/projects/broken-semantic-search/preview.jpg",
+    "source": "generated"
+  },
+  "durable-queue-wal": {
+    "previewSrc": "/projects/durable-queue-wal/preview.jpg",
+    "source": "generated"
+  },
+  "dontcaught-ai-assistant": {
+    "previewSrc": "/projects/dontcaught-ai-assistant/preview.jpg",
+    "source": "generated"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "multimodal-generation-ai",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\multimodal-generation-ai\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "screen",
+  "is_real_run": true,
+  "title": "Multimodal Generation AI"
+}

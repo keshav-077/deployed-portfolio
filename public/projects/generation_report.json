@@ -1,0 +1,212 @@
+{
+  "ledgeriq": {
+    "source": "repo_gif",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_0.gif",
+    "template": "fintech_recon"
+  },
+  "invoiceflow-ai": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\invoiceflow-ai\\github_og.jpg",
+    "template": "invoice_pipeline"
+  },
+  "paperloom": {
+    "source": "repo_gif",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_0.gif",
+    "template": "research_trace"
+  },
+  "neuralfolio": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\neuralfolio\\github_og.jpg",
+    "template": "rl_portfolio"
+  },
+  "logisticshub": {
+    "source": "repo_path",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\logisticshub\\extra_parcelpulse-network-intelligence-executive.png",
+    "template": "data_pipeline"
+  },
+  "fraud-detection-mlops": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\fraud-detection-mlops\\github_og.jpg",
+    "template": "data_pipeline"
+  },
+  "attritionlens": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\attritionlens\\github_og.jpg",
+    "template": "data_pipeline"
+  },
+  "hinglish-turn-detector": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_0.png",
+    "template": "nlp_pipeline"
+  },
+  "multibax-sklearn": {
+    "source": "repo_gif",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\readme_0.gif",
+    "template": "data_pipeline"
+  },
+  "espcn-super-resolution": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\espcn-super-resolution\\github_og.jpg",
+    "template": "cv_detect"
+  },
+  "aeroscale-sr": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\aeroscale-sr\\github_og.jpg",
+    "template": "cv_detect"
+  },
+  "stock-price-predictor": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_0.png",
+    "template": "data_pipeline"
+  },
+  "healthcare-assistant": {
+    "source": "repo_gif",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\readme_0.gif",
+    "template": "rag_chat"
+  },
+  "source-code-analysis-chatbot": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\source-code-analysis-chatbot\\readme_0.png",
+    "template": "rag_chat"
+  },
+  "vertexai-rag": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-rag\\github_og.jpg",
+    "template": "rag_chat"
+  },
+  "vertexai-llm-finetuning": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-llm-finetuning\\github_og.jpg",
+    "template": "data_pipeline"
+  },
+  "vertexai-gemini-chatbot": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-gemini-chatbot\\github_og.jpg",
+    "template": "rag_chat"
+  },
+  "chainlit-llm-assistant": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\chainlit-llm-assistant\\github_og.jpg",
+    "template": "rag_chat"
+  },
+  "vibe-apply-job-automation": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_0.png",
+    "template": "app_shell"
+  },
+  "ai-border-security": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\readme_0.png",
+    "template": "cv_detect"
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\intelligent-vehicle-recognition-alpr\\github_og.jpg",
+    "template": "cv_detect"
+  },
+  "deepfake-detection": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_0.png",
+    "template": "cv_detect"
+  },
+  "object-detection-hackbyte": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\object-detection-hackbyte\\readme_0.png",
+    "template": "cv_detect"
+  },
+  "sign-language-detection": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sign-language-detection\\readme_0.png",
+    "template": "cv_detect"
+  },
+  "dcgan-image-generation": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dcgan-image-generation\\readme_0.png",
+    "template": "gan_grid"
+  },
+  "vae-digit-generation": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vae-digit-generation\\readme_0.png",
+    "template": "gan_grid"
+  },
+  "progressive-gan": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\progressive-gan\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "wgan": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\wgan\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "srgan": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\srgan\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "cyclegan": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cyclegan\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "ddpm-diffusion": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ddpm-diffusion\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "clothes-inpainting-sam": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\clothes-inpainting-sam\\github_og.jpg",
+    "template": "cv_detect"
+  },
+  "multimodal-generation-ai": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multimodal-generation-ai\\github_og.jpg",
+    "template": "gan_grid"
+  },
+  "language-translation-summarization": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\language-translation-summarization\\github_og.jpg",
+    "template": "nlp_pipeline"
+  },
+  "sentiment-analysis-engine": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sentiment-analysis-engine\\github_og.jpg",
+    "template": "nlp_pipeline"
+  },
+  "rl-music-recommendation": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\rl-music-recommendation\\github_og.jpg",
+    "template": "rl_portfolio"
+  },
+  "crop-disease-detection": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\crop-disease-detection\\readme_0.png",
+    "template": "cv_detect"
+  },
+  "earthquake-prediction": {
+    "source": "readme",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\earthquake-prediction\\readme_0.png",
+    "template": "data_pipeline"
+  },
+  "cloudstack-messenger": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cloudstack-messenger\\github_og.jpg",
+    "template": "app_shell"
+  },
+  "broken-semantic-search": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\broken-semantic-search\\github_og.jpg",
+    "template": "rag_chat"
+  },
+  "durable-queue-wal": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\durable-queue-wal\\github_og.jpg",
+    "template": "app_shell"
+  },
+  "dontcaught-ai-assistant": {
+    "source": "github_og",
+    "detail": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dontcaught-ai-assistant\\github_og.jpg",
+    "template": "app_shell"
+  }
+}

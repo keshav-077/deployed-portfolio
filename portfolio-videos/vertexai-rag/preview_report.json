@@ -1,0 +1,13 @@
+{
+  "slug": "vertexai-rag",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\vertexai-rag\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "cached",
+  "is_real_run": false,
+  "title": "VertexAI RAG Implementation"
+}

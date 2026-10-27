@@ -1,0 +1,506 @@
+{
+  "ledgeriq": {
+    "id": "ledgeriq",
+    "displayName": "LedgerIQ",
+    "oneLiner": "LedgerIQ (repo: `Ledgeriq----Agentic-B2B-financial-reconciliation`) is a full-stack **agentic B2B financial reconciliation** console. It imports an internal ledger and a counterparty statement, **diffs them deterministically on `transaction_ref`**, then uses Google Gemini ADK age",
+    "workflowSteps": [
+      "Import ledgers",
+      "Match refs",
+      "Flag gaps",
+      "Approve send"
+    ],
+    "visualTemplate": "fintech_recon"
+  },
+  "invoiceflow-ai": {
+    "id": "invoiceflow-ai",
+    "displayName": "InvoiceFlow AI",
+    "oneLiner": "End-to-end AP automation: ingest invoice PDFs or photos, extract fields with vision LLMs, validate against PO master data, and auto-approve or route exceptions with a full audit trail.",
+    "workflowSteps": [
+      "Upload PDF",
+      "Extract fields",
+      "Match PO",
+      "Pay / review"
+    ],
+    "visualTemplate": "invoice_pipeline"
+  },
+  "paperloom": {
+    "id": "paperloom",
+    "displayName": "PaperLoom",
+    "oneLiner": "paperloom is a full-stack Next.js web application that converts academic PDFs into interactive, claim-traced research workspaces. Uploads PDF, selects LLM provider, runs a multi-stage AI pipeline extracting claims/metrics/glossary/limitations, generates scrollytelling narrative (",
+    "workflowSteps": [
+      "Import paper",
+      "Extract claims",
+      "Verify sources",
+      "Publish trace"
+    ],
+    "visualTemplate": "research_trace"
+  },
+  "neuralfolio": {
+    "id": "neuralfolio",
+    "displayName": "NeuralFolio",
+    "oneLiner": "Deep RL portfolio management using SAC (Soft Actor-Critic) with custom Transformer-based policy, for multi-asset allocation (AAPL, BTC-USD, MSFT, SPY, TLT + cash), with macroeconomic features (Fed Funds Rate, CPI, VIX). Includes Qwen2.5-3B LLM risk analyst (RAG), baseline compari",
+    "workflowSteps": [
+      "Market state",
+      "Policy action",
+      "Rebalance",
+      "Reward curve"
+    ],
+    "visualTemplate": "rl_portfolio"
+  },
+  "logisticshub": {
+    "id": "logisticshub",
+    "displayName": "LogisticsHub Analytics",
+    "oneLiner": "Last-mile logistics data platform: synthetic parcel generation, Snowflake + dbt transforms, and multiple ML models for operational analytics and forecasting.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "fraud-detection-mlops": {
+    "id": "fraud-detection-mlops",
+    "displayName": "Fraud Detection MLOps",
+    "oneLiner": "MLOps pipeline for fraud detection with training, evaluation, and deployment workflows for production-grade model serving.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "attritionlens": {
+    "id": "attritionlens",
+    "displayName": "AttritionLens",
+    "oneLiner": "HR analytics Streamlit app predicting employee attrition with Random Forest, interactive EDA, and risk segmentation for people teams.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "hinglish-turn-detector": {
+    "id": "hinglish-turn-detector",
+    "displayName": "Hinglish Turn Detector",
+    "oneLiner": "Dual-scale Whisper-based model detecting speaker turn boundaries in Hinglish conversational audio for voice agents and ASR pipelines.",
+    "workflowSteps": [
+      "Input text",
+      "Translate / tokenize",
+      "Model pass",
+      "Summary out"
+    ],
+    "visualTemplate": "nlp_pipeline"
+  },
+  "multibax-sklearn": {
+    "id": "multibax-sklearn",
+    "displayName": "multibax-sklearn",
+    "oneLiner": "A comprehensive scikit-learn implementation of the BAX (Bayesian Algorithm Execution) framework for multi-objective materials discovery and optimization. The system provides: (1) a flexible algorithm abstraction layer for expressing experimental goals (wishlists, Pareto fronts, p",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "espcn-super-resolution": {
+    "id": "espcn-super-resolution",
+    "displayName": "ESPCN Super-Resolution",
+    "oneLiner": "Efficient sub-pixel CNN for single-image super-resolution using sub-pixel convolution layers for upscaling with low compute cost.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "aeroscale-sr": {
+    "id": "aeroscale-sr",
+    "displayName": "AeroScale SR",
+    "oneLiner": "Aerospace-oriented super-resolution and enhancement pipeline for satellite or aerial imagery using deep learning upscaling.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "stock-price-predictor": {
+    "id": "stock-price-predictor",
+    "displayName": "Stock Price Predictor",
+    "oneLiner": "Time-series forecasting models for equity prices with feature engineering, training pipelines, and evaluation metrics.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "healthcare-assistant": {
+    "id": "healthcare-assistant",
+    "displayName": "Healthcare Assistant",
+    "oneLiner": "RAG-powered medical assistant that grounds LLM responses in a curated healthcare knowledge base, combining LangChain orchestration with OpenAI GPT and a Pinecone vector store for accurate, context-aware answers.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "source-code-analysis-chatbot": {
+    "id": "source-code-analysis-chatbot",
+    "displayName": "Source Code Analysis Chatbot",
+    "oneLiner": "RAG-powered semantic search tool for querying and analyzing large codebases, using LangChain orchestration with FAISS vector stores for contextual code understanding.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "vertexai-rag": {
+    "id": "vertexai-rag",
+    "displayName": "VertexAI RAG Implementation",
+    "oneLiner": "Complete Retrieval-Augmented Generation pipeline built on Google Cloud VertexAI, enabling context-aware AI responses through efficient document retrieval and LLM synthesis.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "vertexai-llm-finetuning": {
+    "id": "vertexai-llm-finetuning",
+    "displayName": "VertexAI LLM Fine-Tuning",
+    "oneLiner": "Comprehensive supervised fine-tuning pipeline for large language models using Google Cloud VertexAI, covering data preparation, training configuration, and model deployment.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "vertexai-gemini-chatbot": {
+    "id": "vertexai-gemini-chatbot",
+    "displayName": "VertexAI Gemini Chatbot",
+    "oneLiner": "Conversational AI application built with the Chainlit framework, delivering intuitive LLM-powered interactions with rich UI elements and seamless chat-based workflows.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "chainlit-llm-assistant": {
+    "id": "chainlit-llm-assistant",
+    "displayName": "Chainlit LLM Assistant",
+    "oneLiner": "Conversational AI application built with the Chainlit framework, delivering intuitive LLM-powered interactions with rich UI elements and seamless chat-based workflows.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "vibe-apply-job-automation": {
+    "id": "vibe-apply-job-automation",
+    "displayName": "Vibe Apply \u2014 Job Search Automation",
+    "oneLiner": "Intelligent job-hunting automation tool that scrapes listings, auto-generates tailored cover letters, and sends personalized cold emails \u2014 eliminating repetitive application workflows.",
+    "workflowSteps": [
+      "Open app",
+      "Core workflow",
+      "Validate",
+      "Result view"
+    ],
+    "visualTemplate": "app_shell"
+  },
+  "ai-border-security": {
+    "id": "ai-border-security",
+    "displayName": "AI-Driven Border Security & Strategic Management System",
+    "oneLiner": "Real-time weapon detection and person re-identification pipeline for border security, combining YOLOv8 object detection with OSNet re-identification for high-accuracy threat monitoring.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "id": "intelligent-vehicle-recognition-alpr",
+    "displayName": "Intelligent Vehicle Recognition Platform (ALPR)",
+    "oneLiner": "Production-grade Automatic License Plate Recognition system that combines YOLOv5 for vehicle detection with InceptionResNetV2 for license plate recognition. It detects vehicles, crops plate regions, performs OCR with Tesseract, and exposes both a Flask production app and a Streamlit demo, plus a documented REST API returning plate text, confidence scores, and bounding-box coordinates.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "deepfake-detection": {
+    "id": "deepfake-detection",
+    "displayName": "Deepfake Detection",
+    "oneLiner": "Robust deepfake video detection framework fusing EfficientNet-B0 spatial features with BiLSTM temporal modeling to identify manipulated media with high accuracy.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "object-detection-hackbyte": {
+    "id": "object-detection-hackbyte",
+    "displayName": "Duality HackByte \u2014 YOLOv8 Object Detection",
+    "oneLiner": "Optimized lightweight object detection pipeline built on YOLOv8s with advanced augmentation strategies and tuned hyperparameters for the Duality HackByte competition dataset.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "sign-language-detection": {
+    "id": "sign-language-detection",
+    "displayName": "Sign Language Detection",
+    "oneLiner": "Real-time sign language gesture recognition using MediaPipe hand tracking combined with custom CNN architectures for accessible communication assistance.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "dcgan-image-generation": {
+    "id": "dcgan-image-generation",
+    "displayName": "Image Generation with DCGAN",
+    "oneLiner": "Deep Convolutional GAN implementation for high-quality image synthesis, utilizing convolutional-transpose layers with progressive training for realistic output generation.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "vae-digit-generation": {
+    "id": "vae-digit-generation",
+    "displayName": "Digit Generation with VAE",
+    "oneLiner": "Variational Autoencoder built with TensorFlow/Keras for generating novel MNIST-style digit images through learned latent space representations and probabilistic decoding.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "progressive-gan": {
+    "id": "progressive-gan",
+    "displayName": "Progressive GAN Implementation",
+    "oneLiner": "Progressive Growing GAN for high-resolution image synthesis with smooth layer transitions, scaling from 4\u00d74 to 256\u00d7256 resolution through incremental network growth.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "wgan": {
+    "id": "wgan",
+    "displayName": "Wasserstein GAN (WGAN)",
+    "oneLiner": "WGAN-GP implementation (despite title saying WGAN) in `3-WGAN By Neuralearn.ai-.ipynb` (~512KB). Part of Neuralearn.ai GAN series (number 3).",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "srgan": {
+    "id": "srgan",
+    "displayName": "Super-Resolution GAN (SRGAN)",
+    "oneLiner": "A rigorous from-scratch reproduction of the ESPCN paper (Shi et al., CVPR 2016). Features a production-grade Python package with custom periodic shuffle, configurable training pipeline, comprehensive benchmarks, ablation studies, and a full test suite.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "cyclegan": {
+    "id": "cyclegan",
+    "displayName": "CycleGAN Image Translation",
+    "oneLiner": "CycleGAN implementation for unpaired image-to-image translation (face mask removal/addition), contained in `6-CycleGAN By Neuralearn.ai-.ipynb` (~660KB).",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "ddpm-diffusion": {
+    "id": "ddpm-diffusion",
+    "displayName": "Diffusion Models (DDPM)",
+    "oneLiner": "State-of-the-art image generation using Denoising Diffusion Probabilistic Models with TensorFlow, implementing iterative noise removal for high-fidelity synthesis.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "clothes-inpainting-sam": {
+    "id": "clothes-inpainting-sam",
+    "displayName": "Clothes Inpainting with SAM",
+    "oneLiner": "Multimodal AI image generation system leveraging CLIP for semantic text-image alignment and VQGAN for high-fidelity visual synthesis from natural language prompts.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "multimodal-generation-ai": {
+    "id": "multimodal-generation-ai",
+    "displayName": "Multimodal Generation AI",
+    "oneLiner": "Multimodal AI image generation system leveraging CLIP for semantic text-image alignment and VQGAN for high-fidelity visual synthesis from natural language prompts.",
+    "workflowSteps": [
+      "Sample noise",
+      "Generator",
+      "Refine latent",
+      "Output grid"
+    ],
+    "visualTemplate": "gan_grid"
+  },
+  "language-translation-summarization": {
+    "id": "language-translation-summarization",
+    "displayName": "Language Translation & Summarization",
+    "oneLiner": "End-to-end multi-language translation and text summarization pipeline leveraging mBART for translation and Pegasus for abstractive summarization of long documents.",
+    "workflowSteps": [
+      "Input text",
+      "Translate / tokenize",
+      "Model pass",
+      "Summary out"
+    ],
+    "visualTemplate": "nlp_pipeline"
+  },
+  "sentiment-analysis-engine": {
+    "id": "sentiment-analysis-engine",
+    "displayName": "Sentiment / Hate Speech Detection",
+    "oneLiner": "NLP classifier detecting toxic, aggressive, and hateful language patterns in digital communications, enabling safer online interactions through real-time content moderation.",
+    "workflowSteps": [
+      "Input text",
+      "Translate / tokenize",
+      "Model pass",
+      "Summary out"
+    ],
+    "visualTemplate": "nlp_pipeline"
+  },
+  "rl-music-recommendation": {
+    "id": "rl-music-recommendation",
+    "displayName": "Music Recommendation System",
+    "oneLiner": "Reinforcement learning-based music recommendation engine that dynamically adapts to user listening patterns using reward-driven preference optimization.",
+    "workflowSteps": [
+      "Market state",
+      "Policy action",
+      "Rebalance",
+      "Reward curve"
+    ],
+    "visualTemplate": "rl_portfolio"
+  },
+  "crop-disease-detection": {
+    "id": "crop-disease-detection",
+    "displayName": "Crop Detection",
+    "oneLiner": "CNN-based precision agriculture tool for automated crop and disease classification from leaf images, enabling early intervention and improved farming outcomes.",
+    "workflowSteps": [
+      "Camera frame",
+      "Detect objects",
+      "Track / classify",
+      "Alert UI"
+    ],
+    "visualTemplate": "cv_detect"
+  },
+  "earthquake-prediction": {
+    "id": "earthquake-prediction",
+    "displayName": "Earthquake Magnitude Prediction",
+    "oneLiner": "Deep learning model for seismic activity forecasting using LSTM networks trained on historical geological data with feature engineering for temporal pattern recognition.",
+    "workflowSteps": [
+      "Ingest data",
+      "Transform",
+      "Train model",
+      "Dashboard KPI"
+    ],
+    "visualTemplate": "data_pipeline"
+  },
+  "cloudstack-messenger": {
+    "id": "cloudstack-messenger",
+    "displayName": "CloudStack Messenger",
+    "oneLiner": "Modern cloud-native messaging platform built with React, Go, PostgreSQL, Redis & Nginx \u2014 a full-stack microservices architecture with Docker-containerized deployment.",
+    "workflowSteps": [
+      "Open app",
+      "Core workflow",
+      "Validate",
+      "Result view"
+    ],
+    "visualTemplate": "app_shell"
+  },
+  "broken-semantic-search": {
+    "id": "broken-semantic-search",
+    "displayName": "Broken Semantic Search (Fixed)",
+    "oneLiner": "Diagnosed and repaired a broken semantic search service, restoring correct vector-based retrieval and ranking through systematic debugging of the embedding and query pipeline.",
+    "workflowSteps": [
+      "User query",
+      "Retrieve context",
+      "Grounded answer",
+      "Cite sources"
+    ],
+    "visualTemplate": "rag_chat"
+  },
+  "durable-queue-wal": {
+    "id": "durable-queue-wal",
+    "displayName": "Durable Queue (Write-Ahead Log Recovery)",
+    "oneLiner": "A durable message queue implementing write-ahead logging for crash recovery and reliable delivery, demonstrating systems-level persistence and fault-tolerance techniques.",
+    "workflowSteps": [
+      "Open app",
+      "Core workflow",
+      "Validate",
+      "Result view"
+    ],
+    "visualTemplate": "app_shell"
+  },
+  "dontcaught-ai-assistant": {
+    "id": "dontcaught-ai-assistant",
+    "displayName": "DontCaught \u2014 Stealth AI Desktop Assistant",
+    "oneLiner": "Lightweight desktop AI assistant built with Tauri and React, featuring a translucent overlay invisible to video calls and screen recordings while providing real-time AI-powered assistance.",
+    "workflowSteps": [
+      "Open app",
+      "Core workflow",
+      "Validate",
+      "Result view"
+    ],
+    "visualTemplate": "app_shell"
+  }
+}

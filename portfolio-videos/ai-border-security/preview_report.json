@@ -1,0 +1,13 @@
+{
+  "slug": "ai-border-security",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\ai-border-security\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "cached",
+  "is_real_run": false,
+  "title": "AI-Driven Border Security & Strategic Management System"
+}

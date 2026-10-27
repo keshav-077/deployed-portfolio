@@ -2,27 +2,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { education } from "@/data/education";
 import { profile } from "@/data/profile";
 import { sortByDate } from "@/lib/sortByDate";
-
-/**
- * Derive a compact monogram for an institution when no logo asset exists.
- * Prefers the parenthetical acronym (e.g. "IIM Visakhapatnam (IIM ...)" -> "IIM"),
- * otherwise falls back to the initials of the significant words.
- */
-const monogram = (institution: string): string => {
-  const paren = institution.match(/\(([^)]+)\)/);
-  if (paren) {
-    const acronym = paren[1].trim().split(/\s+/)[0];
-    if (acronym) return acronym.slice(0, 4).toUpperCase();
-  }
-  const stop = new Set(["of", "and", "the", "for", "in", "at"]);
-  const initials = institution
-    .replace(/\(.*?\)/g, "")
-    .split(/[\s,]+/)
-    .filter((w) => w && !stop.has(w.toLowerCase()))
-    .map((w) => w[0])
-    .join("");
-  return initials.slice(0, 4).toUpperCase();
-};
+import OrgLogo from "./OrgLogo";
 
 const CoastalEducation = () => {
   const { ref, isVisible } = useScrollReveal();
@@ -74,23 +54,11 @@ const CoastalEducation = () => {
 
                 <article className="bg-white/60 border border-[#1C2B36]/10 rounded-sm p-6 md:p-10 shadow-sm hover:shadow-md hover:border-accent-1/40 transition-all duration-500">
                   <div className="flex flex-col sm:flex-row sm:items-start gap-5 md:gap-7">
-                    {/* Logo or monogram fallback */}
-                    <div className="shrink-0">
-                      {edu.logo ? (
-                        <img
-                          src={edu.logo}
-                          alt={`${edu.institution} logo`}
-                          className="h-16 w-16 object-contain rounded-sm border border-[#1C2B36]/10 bg-white p-1.5"
-                          loading="lazy"
-                        />
-                      ) : (
-                        <div className="h-16 w-16 flex items-center justify-center rounded-sm border-2 border-accent-1/50 bg-accent-1/5">
-                          <span className="font-display italic font-bold text-lg text-accent-1 leading-none tracking-tight">
-                            {monogram(edu.institution)}
-                          </span>
-                        </div>
-                      )}
-                    </div>
+                    <OrgLogo
+                      src={edu.logo}
+                      label={edu.institution}
+                      variant={edu.logoVariant ?? 'square'}
+                    />
 
                     {/* Header block */}
                     <div className="min-w-0 flex-1">

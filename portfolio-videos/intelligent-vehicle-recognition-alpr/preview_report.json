@@ -1,0 +1,13 @@
+{
+  "slug": "intelligent-vehicle-recognition-alpr",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\intelligent-vehicle-recognition-alpr\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "cached",
+  "is_real_run": false,
+  "title": "Intelligent Vehicle Recognition Platform (ALPR)"
+}

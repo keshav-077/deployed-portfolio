@@ -1,0 +1,27 @@
+{
+  "ai-border-security": {
+    "slug": "ai-border-security",
+    "status": "needs_base_footage",
+    "prompt": "Cinematic CCTV dusk border fence, person walking toward camera, realistic, no text"
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "slug": "intelligent-vehicle-recognition-alpr",
+    "status": "needs_base_footage",
+    "prompt": "Highway toll lane camera, car approaching, realistic traffic cam"
+  },
+  "deepfake-detection": {
+    "slug": "deepfake-detection",
+    "status": "blocked",
+    "reason": "Listed in BLOCKED.md"
+  },
+  "clothes-inpainting-sam": {
+    "slug": "clothes-inpainting-sam",
+    "status": "blocked",
+    "reason": "Listed in BLOCKED.md"
+  },
+  "vertexai-rag": {
+    "slug": "vertexai-rag",
+    "status": "blocked",
+    "reason": "Listed in BLOCKED.md"
+  }
+}

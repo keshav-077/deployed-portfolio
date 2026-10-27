@@ -1,0 +1,13 @@
+{
+  "slug": "hinglish-turn-detector",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\hinglish-turn-detector\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "screen",
+  "is_real_run": true,
+  "title": "Hinglish Turn Detector"
+}

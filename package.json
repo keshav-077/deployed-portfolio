@@ -10,7 +10,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "previews:harvest": "python scripts/harvest_project_media.py",
+    "previews:capture": "python scripts/capture_live_previews.py",
+    "previews:build": "python scripts/harvest_project_media.py && python scripts/capture_live_previews.py && python scripts/generate_project_previews.py",
+    "previews:doc36": "python scripts/build_doc36_previews.py"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

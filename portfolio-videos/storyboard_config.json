@@ -1,0 +1,31 @@
+{
+  "flagships": {
+    "ledgeriq": {
+      "base": "screen",
+      "beats": ["Reconciliation dashboard loads", "Mismatch rows highlight", "Approver confirms match"],
+      "is_real_run_target": true
+    },
+    "invoiceflow-ai": {
+      "base": "screen",
+      "beats": ["Invoice PDF upload", "Fields extract", "PO match approve"],
+      "is_real_run_target": true
+    },
+    "paperloom": {
+      "base": "screen",
+      "beats": ["Paper import", "Claim traced to source", "Evidence verified"],
+      "is_real_run_target": true
+    },
+    "healthcare-assistant": {
+      "base": "screen",
+      "beats": ["Medical question typed", "RAG retrieves", "Cited answer streams"],
+      "is_real_run_target": true
+    }
+  },
+  "pilots": [
+    "ai-border-security",
+    "intelligent-vehicle-recognition-alpr",
+    "deepfake-detection",
+    "clothes-inpainting-sam",
+    "vertexai-rag"
+  ]
+}

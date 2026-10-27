@@ -12,7 +12,6 @@ import { useReducedMotion } from "@/hooks/useReducedMotion";
 // Below-the-fold sections are code-split with React.lazy so their code is
 // fetched as separate on-demand chunks rather than bloating the initial bundle
 // (R9.3). Each import() boundary becomes its own chunk.
-const CoastalWork = lazy(() => import("@/components/coastal/CoastalWork"));
 const CoastalManifesto = lazy(() => import("@/components/coastal/CoastalManifesto"));
 const CoastalCases = lazy(() => import("@/components/coastal/CoastalCases"));
 const CoastalExperience = lazy(() => import("@/components/coastal/CoastalExperience"));
@@ -97,9 +96,6 @@ const Index = () => {
         </LazySection>
         <LazySection>
           <CoastalEducation />
-        </LazySection>
-        <LazySection>
-          <CoastalWork />
         </LazySection>
         <LazySection minHeight="100vh">
           <CoastalCases />

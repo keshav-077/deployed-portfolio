@@ -27,7 +27,16 @@ export interface Project {
   liveUrl?: string; // present only when a deployment exists (R3.4, R3.10)
   featured?: boolean; // flagship project shown in the Selected Work showcase
   featureOrder?: number; // ordering within the Selected Work showcase (1 = first)
+  /** Grid sort key (lower = earlier). From projectDisplayOrder.ts when unset. */
+  displayOrder?: number;
   detail?: ProjectDetail; // rich case-study content for the detail modal
+  /** Filter tags for the projects grid (multi-label). */
+  tags?: string[];
+  previewSrc?: string;
+  previewPoster?: string;
+  previewVideo?: string;
+  previewSource?: 'repo' | 'generated' | 'local_video';
+  liveVerified?: boolean;
 }
 
 export interface Experience {
@@ -37,6 +46,8 @@ export interface Experience {
   startDate: string; // ISO or YYYY-MM for reverse-chronological sort (R2.3)
   endDate: string;
   bullets: string[];
+  logo?: string;
+  logoVariant?: 'square' | 'wide';
 }
 
 export interface Education {
@@ -46,6 +57,7 @@ export interface Education {
   endYear: number;
   description?: string;
   logo?: string; // optional institution logo asset path (omitted when unavailable)
+  logoVariant?: 'square' | 'wide';
   focus?: string; // academic focus / specialization summary
   coursework?: string[]; // relevant coursework
   highlights?: string[]; // key learning highlights

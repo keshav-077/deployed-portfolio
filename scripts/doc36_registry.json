@@ -1,0 +1,256 @@
+[
+  {
+    "docIndex": 1,
+    "portfolioId": "vibe-apply-job-automation",
+    "githubRepo": "-Job-Application-Assistant-HackByte3.0",
+    "localDir": "-Job-Application-Assistant-HackByte3.0",
+    "resolvedPath": "C:\\Github-all-repos\\-Job-Application-Assistant-HackByte3.0"
+  },
+  {
+    "docIndex": 2,
+    "portfolioId": "dcgan-image-generation",
+    "githubRepo": "1mage-Generation-using-DCGAN",
+    "localDir": "1mage-Generation-using-DCGAN",
+    "resolvedPath": "C:\\Github-all-repos\\1mage-Generation-using-DCGAN"
+  },
+  {
+    "docIndex": 3,
+    "portfolioId": "aeroscale-sr",
+    "githubRepo": "AeroScale-SR",
+    "localDir": "AeroScale-SR",
+    "resolvedPath": "C:\\Github-all-repos\\AeroScale-SR"
+  },
+  {
+    "docIndex": 4,
+    "portfolioId": "ai-border-security",
+    "githubRepo": "AI-Driven-Border-Security-and-Strategic-Management-System",
+    "localDir": "AI-Driven-Border-Security-and-Strategic-Management-System",
+    "resolvedPath": "C:\\Github-all-repos\\AI-Driven-Border-Security-and-Strategic-Management-System"
+  },
+  {
+    "docIndex": 5,
+    "portfolioId": "clothes-inpainting-sam",
+    "githubRepo": "clothes-inpainting-sam",
+    "localDir": "clothes-inpainting-sam",
+    "resolvedPath": "C:\\Github-all-repos\\clothes-inpainting-sam"
+  },
+  {
+    "docIndex": 6,
+    "portfolioId": "cloudstack-messenger",
+    "githubRepo": "cloudstack-messenger",
+    "localDir": "cloudstack-messenger",
+    "resolvedPath": "C:\\Github-all-repos\\cloudstack-messenger"
+  },
+  {
+    "docIndex": 7,
+    "portfolioId": "crop-disease-detection",
+    "githubRepo": "Crop_Detection",
+    "localDir": "Crop_Detection",
+    "resolvedPath": "C:\\Github-all-repos\\Crop_Detection"
+  },
+  {
+    "docIndex": 8,
+    "portfolioId": "cyclegan",
+    "githubRepo": "CycleGAN-Image-Translation",
+    "localDir": "CycleGAN-Image-Translation",
+    "resolvedPath": "C:\\Github-all-repos\\CycleGAN-Image-Translation"
+  },
+  {
+    "docIndex": 9,
+    "portfolioId": "deepfake-detection",
+    "githubRepo": "DeepFake-Detection-using-Deep-Learning",
+    "localDir": "DeepFake-Detection-using-Deep-Learning",
+    "resolvedPath": "C:\\Github-all-repos\\DeepFake-Detection-using-Deep-Learning"
+  },
+  {
+    "docIndex": 10,
+    "portfolioId": "vae-digit-generation",
+    "githubRepo": "Digit-Generation-Using-VAE",
+    "localDir": "Digit-Generation-Using-VAE",
+    "resolvedPath": "C:\\Github-all-repos\\Digit-Generation-Using-VAE"
+  },
+  {
+    "docIndex": 11,
+    "portfolioId": "espcn-super-resolution",
+    "githubRepo": "ESPCN-SubPixel-Super-Resolution",
+    "localDir": "ESPCN-SubPixel-Super-Resolution",
+    "fallbackLocalDir": "espcn-from-scratch",
+    "resolvedPath": "C:\\Github-all-repos\\espcn-from-scratch"
+  },
+  {
+    "docIndex": 12,
+    "portfolioId": "fraud-detection-mlops",
+    "githubRepo": "Fraud-Detection-MLOps-System",
+    "localDir": "Fraud-Detection-MLOps-System",
+    "resolvedPath": "C:\\Github-all-repos\\Fraud-Detection-MLOps-System"
+  },
+  {
+    "docIndex": 13,
+    "portfolioId": "language-translation-summarization",
+    "githubRepo": "Language-Translation-and-Summarization",
+    "localDir": "Language-Translation-and-Summarization",
+    "resolvedPath": "C:\\Github-all-repos\\Language-Translation-and-Summarization"
+  },
+  {
+    "docIndex": 14,
+    "portfolioId": "ledgeriq",
+    "githubRepo": "Ledgeriq----Agentic-B2B-financial-reconciliation",
+    "localDir": "Ledgeriq----Agentic-B2B-financial-reconciliation",
+    "resolvedPath": "C:\\Github-all-repos\\Ledgeriq----Agentic-B2B-financial-reconciliation"
+  },
+  {
+    "docIndex": 15,
+    "portfolioId": "healthcare-assistant",
+    "githubRepo": "medical-chatbot-rag",
+    "localDir": "medical-chatbot-rag",
+    "resolvedPath": "C:\\Github-all-repos\\medical-chatbot-rag"
+  },
+  {
+    "docIndex": 16,
+    "portfolioId": "multimodal-generation-ai",
+    "githubRepo": "multimodal-generation-ai",
+    "localDir": "multimodal-generation-ai",
+    "resolvedPath": "C:\\Github-all-repos\\multimodal-generation-ai"
+  },
+  {
+    "docIndex": 17,
+    "portfolioId": "rl-music-recommendation",
+    "githubRepo": "Music-Recommend-system-using-Reinforcement-Learning",
+    "localDir": "Music-Recommend-system-using-Reinforcement-Learning",
+    "resolvedPath": "C:\\Github-all-repos\\Music-Recommend-system-using-Reinforcement-Learning"
+  },
+  {
+    "docIndex": 18,
+    "portfolioId": "neuralfolio",
+    "githubRepo": "NeuralFolio---Deep-RL-Portfolio-Manager",
+    "localDir": "NeuralFolio---Deep-RL-Portfolio-Manager",
+    "resolvedPath": "C:\\Github-all-repos\\NeuralFolio---Deep-RL-Portfolio-Manager"
+  },
+  {
+    "docIndex": 19,
+    "portfolioId": "paperloom",
+    "githubRepo": "paperloom",
+    "localDir": "trace-research-paper-studio",
+    "resolvedPath": "C:\\Github-all-repos\\trace-research-paper-studio"
+  },
+  {
+    "docIndex": 20,
+    "portfolioId": "progressive-gan",
+    "githubRepo": "Progressive-GAN-Implementation",
+    "localDir": "Progressive-GAN-Implementation",
+    "resolvedPath": "C:\\Github-all-repos\\Progressive-GAN-Implementation"
+  },
+  {
+    "docIndex": 21,
+    "portfolioId": "sentiment-analysis-engine",
+    "githubRepo": "Sentiment_analysis",
+    "localDir": "Sentiment_analysis",
+    "resolvedPath": "C:\\Github-all-repos\\Sentiment_analysis"
+  },
+  {
+    "docIndex": 22,
+    "portfolioId": "sign-language-detection",
+    "githubRepo": "Sign_Language_Detection",
+    "localDir": "Sign_Language_Detection",
+    "resolvedPath": "C:\\Github-all-repos\\Sign_Language_Detection"
+  },
+  {
+    "docIndex": 23,
+    "portfolioId": "source-code-analysis-chatbot",
+    "githubRepo": "source-code-analysis-using-langchain",
+    "localDir": "source-code-analysis-using-langchain",
+    "resolvedPath": "C:\\Github-all-repos\\source-code-analysis-using-langchain"
+  },
+  {
+    "docIndex": 24,
+    "portfolioId": "stock-price-predictor",
+    "githubRepo": "stock-price-predictor",
+    "localDir": "stock-price-predictor",
+    "resolvedPath": "C:\\Github-all-repos\\stock-price-predictor"
+  },
+  {
+    "docIndex": 25,
+    "portfolioId": "vertexai-gemini-chatbot",
+    "githubRepo": "vertexai-gemini-chatbot",
+    "localDir": "vertexai-gemini-chatbot",
+    "resolvedPath": "C:\\Github-all-repos\\vertexai-gemini-chatbot"
+  },
+  {
+    "docIndex": 26,
+    "portfolioId": "vertexai-llm-finetuning",
+    "githubRepo": "vertexai-llm-finetuning",
+    "localDir": "vertexai-llm-finetuning",
+    "resolvedPath": "C:\\Github-all-repos\\vertexai-llm-finetuning"
+  },
+  {
+    "docIndex": 27,
+    "portfolioId": "vertexai-rag",
+    "githubRepo": "vertexai-rag-implementation",
+    "localDir": "vertexai-rag-implementation",
+    "resolvedPath": "C:\\Github-all-repos\\vertexai-rag-implementation"
+  },
+  {
+    "docIndex": 28,
+    "portfolioId": "wgan",
+    "githubRepo": "WGAN-GAN-Implementation",
+    "localDir": "WGAN-GAN-Implementation",
+    "resolvedPath": "C:\\Github-all-repos\\WGAN-GAN-Implementation"
+  },
+  {
+    "docIndex": 29,
+    "portfolioId": "invoiceflow-ai",
+    "githubRepo": "zamp-Invoice-processing-from-PDF-to-decision",
+    "localDir": "zamp-Invoice-processing-from-PDF-to-decision",
+    "resolvedPath": "C:\\Github-all-repos\\zamp-Invoice-processing-from-PDF-to-decision"
+  },
+  {
+    "docIndex": 30,
+    "portfolioId": "srgan",
+    "githubRepo": "Super-Resolution-GAN-SRGAN",
+    "localDir": "Super-Resolution-GAN-SRGAN",
+    "resolvedPath": "C:\\Github-all-repos\\Super-Resolution-GAN-SRGAN"
+  },
+  {
+    "docIndex": 31,
+    "portfolioId": "intelligent-vehicle-recognition-alpr",
+    "githubRepo": "intelligent-vehicle-recognition-platform",
+    "localDir": "intelligent-vehicle-recognition-platform",
+    "resolvedPath": "C:\\Github-all-repos\\intelligent-vehicle-recognition-platform"
+  },
+  {
+    "docIndex": 32,
+    "portfolioId": "attritionlens",
+    "githubRepo": "AttritionLens",
+    "localDir": "AttritionLens",
+    "resolvedPath": "C:\\Github-all-repos\\AttritionLens"
+  },
+  {
+    "docIndex": 33,
+    "portfolioId": "logisticshub",
+    "githubRepo": "LogisticsHub-Analytics-Platform",
+    "localDir": "LogisticsHub-Analytics-Platform",
+    "resolvedPath": "C:\\Github-all-repos\\LogisticsHub-Analytics-Platform"
+  },
+  {
+    "docIndex": 34,
+    "portfolioId": "earthquake-prediction",
+    "githubRepo": "Earthquake_prediction",
+    "localDir": "Earthquake_prediction",
+    "resolvedPath": "C:\\Github-all-repos\\Earthquake_prediction"
+  },
+  {
+    "docIndex": 35,
+    "portfolioId": "hinglish-turn-detector",
+    "githubRepo": "hinglish-turn-detector",
+    "localDir": "Turn-Detection-Model-Whisper-Tiny-Dual-Scale-Attention-Classification-Head-for-Low-Latency-Voice-AI-main",
+    "fallbackLocalDir": "hinglish-turn-detector",
+    "resolvedPath": "C:\\Github-all-repos\\Turn-Detection-Model-Whisper-Tiny-Dual-Scale-Attention-Classification-Head-for-Low-Latency-Voice-AI-main"
+  },
+  {
+    "docIndex": 36,
+    "portfolioId": "multibax-sklearn",
+    "githubRepo": "multibax-sklearn-reproduction",
+    "localDir": "multibax-sklearn-main",
+    "resolvedPath": "C:\\Github-all-repos\\multibax-sklearn-main"
+  }
+]

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="PaperLoom logo">
+  <defs>
+    <linearGradient id="loomWarm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbfaf6"/>
+      <stop offset="100%" stop-color="#f2efe7"/>
+    </linearGradient>
+    <linearGradient id="threadA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e75b37"/>
+      <stop offset="100%" stop-color="#c44a2a"/>
+    </linearGradient>
+    <linearGradient id="threadB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e7254"/>
+      <stop offset="100%" stop-color="#3d9470"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="220" fill="url(#loomWarm)"/>
+
+  <g transform="translate(72,36)">
+    <rect x="0" y="0" width="148" height="148" rx="24" fill="#171a22" opacity="0.06"/>
+    <rect x="8" y="8" width="132" height="132" rx="20" fill="#171a22"/>
+
+    <g stroke="#f2efe7" stroke-width="3" stroke-linecap="round" opacity="0.35">
+      <line x1="36" y1="28" x2="36" y2="120"/>
+      <line x1="56" y1="28" x2="56" y2="120"/>
+      <line x1="76" y1="28" x2="76" y2="120"/>
+      <line x1="96" y1="28" x2="96" y2="120"/>
+      <line x1="116" y1="28" x2="116" y2="120"/>
+    </g>
+
+    <path d="M24 52 H124" stroke="url(#threadA)" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="120" stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" values="120;0;120" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M24 74 H124" stroke="url(#threadB)" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="120" stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" values="120;0;120" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M24 96 H124" stroke="#f2efe7" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7" stroke-dasharray="120" stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" values="120;0;120" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </path>
+
+    <text x="74" y="92" text-anchor="middle" fill="#fbfaf6" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="500" font-style="italic">P</text>
+
+    <circle cx="124" cy="36" r="8" fill="#e75b37">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="7;9;7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="260" y="98" fill="#171a22" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="500" font-style="italic" letter-spacing="-0.02em">PaperLoom</text>
+  <text x="262" y="132" fill="#71766f" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="0.22em">WEAVE PAPERS INTO PROOF-LINKED EXPERIENCES</text>
+
+  <rect x="260" y="148" width="0" height="3" rx="1.5" fill="#e75b37">
+    <animate attributeName="width" values="0;420;420;0" keyTimes="0;0.45;0.75;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="260" y="178" fill="#454a44" font-family="system-ui, -apple-system, sans-serif" font-size="15">Every claim traced to a page and a quote.</text>
+</svg>

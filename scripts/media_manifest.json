@@ -1,0 +1,1016 @@
+{
+  "ledgeriq": {
+    "id": "ledgeriq",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_0.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/demo.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/logo.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/problem.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_3.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/how-it-works.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_4.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/architecture.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_5.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/system-design.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_6.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/reconciliation-flow.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_7.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/deployment.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\readme_8.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/logo-mark.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\extra_demo.gif",
+        "source": "repo_path",
+        "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/demo.gif"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ledgeriq\\extra_demo.gif",
+      "source": "repo_path",
+      "url": "https://raw.githubusercontent.com/keshav-077/Ledgeriq----Agentic-B2B-financial-reconciliation/main/docs/assets/demo.gif"
+    },
+    "liveUrl": "http://54.66.101.162/",
+    "liveCapture": true
+  },
+  "invoiceflow-ai": {
+    "id": "invoiceflow-ai",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\invoiceflow-ai\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/zamp-Invoice-processing-from-PDF-to-decision"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\invoiceflow-ai\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/zamp-Invoice-processing-from-PDF-to-decision"
+    },
+    "liveUrl": "https://zamp-invoice-processing-from-pdf-to.vercel.app",
+    "liveCapture": false
+  },
+  "paperloom": {
+    "id": "paperloom",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_0.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/logo-banner.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_1.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/demo.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_2.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/pipeline-flow.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_3.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/architecture.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_4.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/evidence-hub.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_5.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/workspace-orbit.gif"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\paperloom\\readme_0.gif",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/paperloom/main/docs/images/logo-banner.gif"
+    },
+    "liveUrl": "https://paperloom-40439816779.asia-south1.run.app/",
+    "liveCapture": false
+  },
+  "neuralfolio": {
+    "id": "neuralfolio",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\neuralfolio\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/NeuralFolio---Deep-RL-Portfolio-Manager"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\neuralfolio\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/NeuralFolio---Deep-RL-Portfolio-Manager"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "logisticshub": {
+    "id": "logisticshub",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\logisticshub\\extra_parcelpulse-network-intelligence-executive.png",
+        "source": "repo_path",
+        "url": "https://raw.githubusercontent.com/keshav-077/LogisticsHub-Analytics-Platform/main/qlik/portfolio/previews/parcelpulse-network-intelligence-executive.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\logisticshub\\extra_parcelpulse-network-intelligence-executive.png",
+      "source": "repo_path",
+      "url": "https://raw.githubusercontent.com/keshav-077/LogisticsHub-Analytics-Platform/main/qlik/portfolio/previews/parcelpulse-network-intelligence-executive.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "fraud-detection-mlops": {
+    "id": "fraud-detection-mlops",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\fraud-detection-mlops\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Fraud-Detection-MLOps-System"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\fraud-detection-mlops\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Fraud-Detection-MLOps-System"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "attritionlens": {
+    "id": "attritionlens",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\attritionlens\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/AttritionLens"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\attritionlens\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/AttritionLens"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "hinglish-turn-detector": {
+    "id": "hinglish-turn-detector",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/hinglish-turn-detector"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/logo.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/hero_banner.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/metrics_strip.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_3.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/baseline_comparison.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_4.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/policy_frontier.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_5.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/architecture.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_6.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/dataset_construction.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_7.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/training_loss.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_8.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/validation_selection.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_9.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/slice_audit.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_10.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/robustness.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_11.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/runtime_export.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\hinglish-turn-detector\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/hinglish-turn-detector/main/docs/readme-assets/logo.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "multibax-sklearn": {
+    "id": "multibax-sklearn",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/multibax-sklearn-reproduction"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\readme_0.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/multibax-sklearn-reproduction/master/assets/theme.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/multibax-sklearn-reproduction/master/outputs/tutorial4_wishlist_metrics.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/multibax-sklearn-reproduction/master/assets/plot_comparison.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multibax-sklearn\\readme_0.gif",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/multibax-sklearn-reproduction/master/assets/theme.gif"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "espcn-super-resolution": {
+    "id": "espcn-super-resolution",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\espcn-super-resolution\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/ESPCN-SubPixel-Super-Resolution"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\espcn-super-resolution\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/ESPCN-SubPixel-Super-Resolution"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "aeroscale-sr": {
+    "id": "aeroscale-sr",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\aeroscale-sr\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/AeroScale-SR"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\aeroscale-sr\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/AeroScale-SR"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "stock-price-predictor": {
+    "id": "stock-price-predictor",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/stock-price-predictor"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_0.png",
+        "source": "readme",
+        "url": "https://img.icons8.com/fluency/96/000000/artificial-intelligence.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_1.png",
+        "source": "readme",
+        "url": "https://img.icons8.com/fluency/96/000000/combo-chart.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_2.png",
+        "source": "readme",
+        "url": "https://img.icons8.com/fluency/96/000000/futures.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_3.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/google_pred.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_4.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/close_comp.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_5.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/upcoming_close.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_6.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/open_comp.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_7.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/upcoming_open.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_8.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/pred_next_20days.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_9.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/date.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_10.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/stock-price-predictor/main/assets/stock_pred.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\stock-price-predictor\\readme_0.png",
+      "source": "readme",
+      "url": "https://img.icons8.com/fluency/96/000000/artificial-intelligence.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "healthcare-assistant": {
+    "id": "healthcare-assistant",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/medical-chatbot-rag"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\readme_0.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/medical-chatbot-rag/main/docs/brand/readme-hero.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\readme_1.gif",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/medical-chatbot-rag/main/docs/demo.gif"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\extra_demo.gif",
+        "source": "repo_path",
+        "url": "https://raw.githubusercontent.com/keshav-077/medical-chatbot-rag/main/docs/demo.gif"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\healthcare-assistant\\extra_demo.gif",
+      "source": "repo_path",
+      "url": "https://raw.githubusercontent.com/keshav-077/medical-chatbot-rag/main/docs/demo.gif"
+    },
+    "liveUrl": "https://medical-chatbot-179320.vercel.app",
+    "liveCapture": false
+  },
+  "source-code-analysis-chatbot": {
+    "id": "source-code-analysis-chatbot",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\source-code-analysis-chatbot\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/source-code-analysis-using-langchain/main/images/ChatGPT Image Aug 13, 2025, 05_47_58 AM.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\source-code-analysis-chatbot\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/source-code-analysis-using-langchain/main/images/ChatGPT Image Aug 13, 2025, 05_47_58 AM.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "vertexai-rag": {
+    "id": "vertexai-rag",
+    "assets": [],
+    "chosen": null,
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "vertexai-llm-finetuning": {
+    "id": "vertexai-llm-finetuning",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-llm-finetuning\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/vertexai-llm-finetuning"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-llm-finetuning\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/vertexai-llm-finetuning"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "vertexai-gemini-chatbot": {
+    "id": "vertexai-gemini-chatbot",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-gemini-chatbot\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/vertexai-gemini-chatbot"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vertexai-gemini-chatbot\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/vertexai-gemini-chatbot"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "chainlit-llm-assistant": {
+    "id": "chainlit-llm-assistant",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\chainlit-llm-assistant\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/chainlit-llm-assistant"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\chainlit-llm-assistant\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/chainlit-llm-assistant"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "vibe-apply-job-automation": {
+    "id": "vibe-apply-job-automation",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/-Job-Application-Assistant-HackByte3.0"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/-Job-Application-Assistant-HackByte3.0/main/assets/demo-app.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/-Job-Application-Assistant-HackByte3.0/main/assets/n8n-workflow.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/-Job-Application-Assistant-HackByte3.0/main/assets/gmail-outreach.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_3.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/-Job-Application-Assistant-HackByte3.0/main/assets/job-sheet.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vibe-apply-job-automation\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/-Job-Application-Assistant-HackByte3.0/main/assets/demo-app.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "ai-border-security": {
+    "id": "ai-border-security",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System/main/assets/weaponarch.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System/main/assets/confusionforweapon.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System/main/assets/confusionforperson.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ai-border-security\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/AI-Driven-Border-Security-and-Strategic-Management-System/main/assets/weaponarch.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "intelligent-vehicle-recognition-alpr": {
+    "id": "intelligent-vehicle-recognition-alpr",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\intelligent-vehicle-recognition-alpr\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/intelligent-vehicle-recognition-platform"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\intelligent-vehicle-recognition-alpr\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/intelligent-vehicle-recognition-platform"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "deepfake-detection": {
+    "id": "deepfake-detection",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/DeepFake-Detection-using-Deep-Learning"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/DeepFake-Detection-using-Deep-Learning/main/assests/Screenshot 2025-06-22 154155.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/DeepFake-Detection-using-Deep-Learning/main/assests/Screenshot 2025-06-22 160119.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_2.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/DeepFake-Detection-using-Deep-Learning/main/assests/Screenshot 2025-06-22 155958.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_3.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/DeepFake-Detection-using-Deep-Learning/main/assests/Screenshot 2025-06-22 155027.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\deepfake-detection\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/DeepFake-Detection-using-Deep-Learning/main/assests/Screenshot 2025-06-22 154155.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "object-detection-hackbyte": {
+    "id": "object-detection-hackbyte",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\object-detection-hackbyte\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Duality-HackByte-Object-Detection-using-YOLOv8s"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\object-detection-hackbyte\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Duality-HackByte-Object-Detection-using-YOLOv8s/main/final_results/Screenshot 2025-07-25 134459.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\object-detection-hackbyte\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/Duality-HackByte-Object-Detection-using-YOLOv8s/main/final_results/Screenshot 2025-07-25 134459.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "sign-language-detection": {
+    "id": "sign-language-detection",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sign-language-detection\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Sign_Language_Detection"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sign-language-detection\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Sign_Language_Detection/main/assests/sign_acc.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sign-language-detection\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Sign_Language_Detection/main/assests/sign_loss.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sign-language-detection\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/Sign_Language_Detection/main/assests/sign_acc.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "dcgan-image-generation": {
+    "id": "dcgan-image-generation",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dcgan-image-generation\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/1mage-Generation-using-DCGAN"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dcgan-image-generation\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/1mage-Generation-using-DCGAN/main/assessts/Screenshot 2025-09-05 174315.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dcgan-image-generation\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/1mage-Generation-using-DCGAN/main/assessts/Screenshot 2025-09-05 174315.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "vae-digit-generation": {
+    "id": "vae-digit-generation",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vae-digit-generation\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Digit-Generation-Using-VAE"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vae-digit-generation\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Digit-Generation-Using-VAE/main/assests/Screenshot 2025-09-05 171853.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\vae-digit-generation\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/Digit-Generation-Using-VAE/main/assests/Screenshot 2025-09-05 171853.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "progressive-gan": {
+    "id": "progressive-gan",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\progressive-gan\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Progressive-GAN-Implementation"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\progressive-gan\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Progressive-GAN-Implementation"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "wgan": {
+    "id": "wgan",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\wgan\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/WGAN-GAN-Implementation"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\wgan\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/WGAN-GAN-Implementation"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "srgan": {
+    "id": "srgan",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\srgan\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Super-Resolution-GAN-SRGAN"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\srgan\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Super-Resolution-GAN-SRGAN"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "cyclegan": {
+    "id": "cyclegan",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cyclegan\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/CycleGAN-Image-Translation"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cyclegan\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/CycleGAN-Image-Translation"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "ddpm-diffusion": {
+    "id": "ddpm-diffusion",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ddpm-diffusion\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Diffusion-Models-Implementation"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\ddpm-diffusion\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Diffusion-Models-Implementation"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "clothes-inpainting-sam": {
+    "id": "clothes-inpainting-sam",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\clothes-inpainting-sam\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/clothes-inpainting-sam"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\clothes-inpainting-sam\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/clothes-inpainting-sam"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "multimodal-generation-ai": {
+    "id": "multimodal-generation-ai",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multimodal-generation-ai\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/multimodal-generation-ai"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\multimodal-generation-ai\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/multimodal-generation-ai"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "language-translation-summarization": {
+    "id": "language-translation-summarization",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\language-translation-summarization\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Language-Translation-and-Summarization"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\language-translation-summarization\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Language-Translation-and-Summarization"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "sentiment-analysis-engine": {
+    "id": "sentiment-analysis-engine",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sentiment-analysis-engine\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Sentiment_analysis"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\sentiment-analysis-engine\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Sentiment_analysis"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "rl-music-recommendation": {
+    "id": "rl-music-recommendation",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\rl-music-recommendation\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Music-Recommend-system-using-Reinforcement-Learning"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\rl-music-recommendation\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Music-Recommend-system-using-Reinforcement-Learning"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "crop-disease-detection": {
+    "id": "crop-disease-detection",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\crop-disease-detection\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Crop_Detection"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\crop-disease-detection\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Crop_Detection/main/assessts/Screenshot 2025-07-23 224656.png"
+      },
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\crop-disease-detection\\readme_1.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Crop_Detection/main/assessts/Screenshot 2025-07-23 224710.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\crop-disease-detection\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/Crop_Detection/main/assessts/Screenshot 2025-07-23 224656.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "earthquake-prediction": {
+    "id": "earthquake-prediction",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\earthquake-prediction\\readme_0.png",
+        "source": "readme",
+        "url": "https://raw.githubusercontent.com/keshav-077/Earthquake_prediction/main/assessts/earthquake.png"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\earthquake-prediction\\readme_0.png",
+      "source": "readme",
+      "url": "https://raw.githubusercontent.com/keshav-077/Earthquake_prediction/main/assessts/earthquake.png"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "cloudstack-messenger": {
+    "id": "cloudstack-messenger",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cloudstack-messenger\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/cloudstack-messenger"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\cloudstack-messenger\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/cloudstack-messenger"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "broken-semantic-search": {
+    "id": "broken-semantic-search",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\broken-semantic-search\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/broken-semantic-search-v3-fixed"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\broken-semantic-search\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/broken-semantic-search-v3-fixed"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "durable-queue-wal": {
+    "id": "durable-queue-wal",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\durable-queue-wal\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Durable-Queue-WAL-Recovery-Implementation"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\durable-queue-wal\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Durable-Queue-WAL-Recovery-Implementation"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  },
+  "dontcaught-ai-assistant": {
+    "id": "dontcaught-ai-assistant",
+    "assets": [
+      {
+        "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dontcaught-ai-assistant\\github_og.jpg",
+        "source": "github_og",
+        "url": "https://opengraph.githubassets.com/1/keshav-077/Dontcaught-AI-assistant"
+      }
+    ],
+    "chosen": {
+      "file": "C:\\Github-all-repos\\deployed-portfolio\\scripts\\media_cache\\dontcaught-ai-assistant\\github_og.jpg",
+      "source": "github_og",
+      "url": "https://opengraph.githubassets.com/1/keshav-077/Dontcaught-AI-assistant"
+    },
+    "liveUrl": null,
+    "liveCapture": false
+  }
+}

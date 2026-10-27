@@ -1,0 +1,13 @@
+{
+  "slug": "deepfake-detection",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\deepfake-detection\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "cached",
+  "is_real_run": false,
+  "title": "Deepfake Detection"
+}

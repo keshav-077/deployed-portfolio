@@ -1,0 +1,284 @@
+{
+  "ok": {
+    "ledgeriq": {
+      "portfolioId": "ledgeriq",
+      "source": "live_record",
+      "url": "http://54.66.101.162/",
+      "kind": "web"
+    },
+    "invoiceflow-ai": {
+      "portfolioId": "invoiceflow-ai",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "paperloom": {
+      "portfolioId": "paperloom",
+      "source": "frontend_record",
+      "url": "http://127.0.0.1:3000/",
+      "kind": "web"
+    },
+    "neuralfolio": {
+      "portfolioId": "neuralfolio",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rl",
+      "fallback": true
+    },
+    "logisticshub": {
+      "portfolioId": "logisticshub",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cloud",
+      "fallback": true
+    },
+    "fraud-detection-mlops": {
+      "portfolioId": "fraud-detection-mlops",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cloud",
+      "fallback": true
+    },
+    "attritionlens": {
+      "portfolioId": "attritionlens",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "ml",
+      "fallback": true
+    },
+    "hinglish-turn-detector": {
+      "portfolioId": "hinglish-turn-detector",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "nlp",
+      "fallback": true
+    },
+    "multibax-sklearn": {
+      "portfolioId": "multibax-sklearn",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "ml"
+    },
+    "espcn-super-resolution": {
+      "portfolioId": "espcn-super-resolution",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "aeroscale-sr": {
+      "portfolioId": "aeroscale-sr",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "stock-price-predictor": {
+      "portfolioId": "stock-price-predictor",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "ml"
+    },
+    "healthcare-assistant": {
+      "portfolioId": "healthcare-assistant",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "source-code-analysis-chatbot": {
+      "portfolioId": "source-code-analysis-chatbot",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "vertexai-rag": {
+      "portfolioId": "vertexai-rag",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag"
+    },
+    "vertexai-llm-finetuning": {
+      "portfolioId": "vertexai-llm-finetuning",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag"
+    },
+    "vertexai-gemini-chatbot": {
+      "portfolioId": "vertexai-gemini-chatbot",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "chainlit-llm-assistant": {
+      "portfolioId": "chainlit-llm-assistant",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "vibe-apply-job-automation": {
+      "portfolioId": "vibe-apply-job-automation",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rag",
+      "fallback": true
+    },
+    "ai-border-security": {
+      "portfolioId": "ai-border-security",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "intelligent-vehicle-recognition-alpr": {
+      "portfolioId": "intelligent-vehicle-recognition-alpr",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv",
+      "fallback": true
+    },
+    "deepfake-detection": {
+      "portfolioId": "deepfake-detection",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "object-detection-hackbyte": {
+      "portfolioId": "object-detection-hackbyte",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "sign-language-detection": {
+      "portfolioId": "sign-language-detection",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cv"
+    },
+    "dcgan-image-generation": {
+      "portfolioId": "dcgan-image-generation",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "vae-digit-generation": {
+      "portfolioId": "vae-digit-generation",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "progressive-gan": {
+      "portfolioId": "progressive-gan",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "wgan": {
+      "portfolioId": "wgan",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "srgan": {
+      "portfolioId": "srgan",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "cyclegan": {
+      "portfolioId": "cyclegan",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "ddpm-diffusion": {
+      "portfolioId": "ddpm-diffusion",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "clothes-inpainting-sam": {
+      "portfolioId": "clothes-inpainting-sam",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "multimodal-generation-ai": {
+      "portfolioId": "multimodal-generation-ai",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "gen"
+    },
+    "language-translation-summarization": {
+      "portfolioId": "language-translation-summarization",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "nlp"
+    },
+    "sentiment-analysis-engine": {
+      "portfolioId": "sentiment-analysis-engine",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "nlp"
+    },
+    "rl-music-recommendation": {
+      "portfolioId": "rl-music-recommendation",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "rl"
+    },
+    "crop-disease-detection": {
+      "portfolioId": "crop-disease-detection",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "ml"
+    },
+    "earthquake-prediction": {
+      "portfolioId": "earthquake-prediction",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "ml"
+    },
+    "cloudstack-messenger": {
+      "portfolioId": "cloudstack-messenger",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cloud",
+      "fallback": true
+    },
+    "broken-semantic-search": {
+      "portfolioId": "broken-semantic-search",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cloud"
+    },
+    "durable-queue-wal": {
+      "portfolioId": "durable-queue-wal",
+      "source": "theme_promo",
+      "frameCount": 104,
+      "theme": "cloud"
+    },
+    "dontcaught-ai-assistant": {
+      "portfolioId": "dontcaught-ai-assistant",
+      "source": "frontend_record",
+      "url": "http://127.0.0.1:5177/",
+      "kind": "web"
+    }
+  },
+  "errors": {
+    "invoiceflow-ai": "record_frontend_preview.py failed (exit 1)",
+    "neuralfolio": "record_frontend_preview.py failed (exit 1)",
+    "logisticshub": "record_frontend_preview.py failed (exit 1)",
+    "fraud-detection-mlops": "record_frontend_preview.py failed (exit 1)",
+    "attritionlens": "record_frontend_preview.py failed (exit 1)",
+    "hinglish-turn-detector": "record_frontend_preview.py failed (exit 1)",
+    "healthcare-assistant": "record_frontend_preview.py failed (exit 1)",
+    "source-code-analysis-chatbot": "record_frontend_preview.py failed (exit 1)",
+    "vertexai-gemini-chatbot": "record_frontend_preview.py failed (exit 1)",
+    "chainlit-llm-assistant": "record_frontend_preview.py failed (exit 1)",
+    "vibe-apply-job-automation": "record_frontend_preview.py failed (exit 1)",
+    "intelligent-vehicle-recognition-alpr": "record_frontend_preview.py failed (exit 1)",
+    "cloudstack-messenger": "record_frontend_preview.py failed (exit 1)"
+  }
+}

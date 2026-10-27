@@ -1,0 +1,12 @@
+{
+  "slug": "neuralfolio",
+  "duration_target": "5.0-8.0s",
+  "paths": {
+    "mp4": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\final.mp4",
+    "webm": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\final.webm",
+    "poster": "C:\\Github-all-repos\\deployed-portfolio\\portfolio-videos\\neuralfolio\\poster.jpg"
+  },
+  "status": "ok",
+  "mode": "public_preview",
+  "is_real_run": false
+}

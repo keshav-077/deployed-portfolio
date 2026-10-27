@@ -1,0 +1,78 @@
+# Manual recording / server overrides for doc-36 UI projects
+ledgeriq:
+  kind: web
+  liveUrl: "http://54.66.101.162/"
+  preferLive: true
+  cwd: "frontend"
+  startCommand: "npm run dev -- --host 127.0.0.1 --port 5173"
+  baseUrl: "http://127.0.0.1:5173"
+  readyPath: "/"
+
+invoiceflow-ai:
+  kind: web
+  liveUrl: "https://zamp-invoice-processing-from-pdf-to.vercel.app"
+  preferLive: true
+  cwd: "frontend"
+  startCommand: "npm run dev -- --host 127.0.0.1 --port 5174"
+  baseUrl: "http://127.0.0.1:5174"
+  readyPath: "/"
+
+paperloom:
+  kind: web
+  liveUrl: "https://paperloom-40439816779.asia-south1.run.app/"
+  preferLive: false
+  cwd: "."
+  startCommand: "npm run dev -- --hostname 127.0.0.1 --port 3000"
+  baseUrl: "http://127.0.0.1:3000"
+  readyPath: "/"
+
+healthcare-assistant:
+  kind: web
+  liveUrl: "https://medical-chatbot-179320.vercel.app"
+  preferLive: true
+  cwd: "."
+  startCommand: "streamlit run app.py --server.port 8501 --server.address 127.0.0.1"
+  baseUrl: "http://127.0.0.1:8501"
+  readyPath: "/"
+
+neuralfolio:
+  kind: streamlit
+  cwd: "."
+  startCommand: "streamlit run app.py --server.port 8502 --server.address 127.0.0.1"
+  baseUrl: "http://127.0.0.1:8502"
+  readyPath: "/"
+
+attritionlens:
+  kind: streamlit
+  cwd: "."
+  startCommand: "streamlit run app.py --server.port 8503 --server.address 127.0.0.1"
+  baseUrl: "http://127.0.0.1:8503"
+  readyPath: "/"
+
+vibe-apply-job-automation:
+  kind: web
+  cwd: "web-application"
+  startCommand: "set BROWSER=none&& set PORT=5175&& npm start"
+  baseUrl: "http://127.0.0.1:5175"
+  readyPath: "/"
+
+cloudstack-messenger:
+  kind: web
+  cwd: "frontend"
+  startCommand: "npm run dev -- --host 127.0.0.1 --port 5176"
+  baseUrl: "http://127.0.0.1:5176"
+  readyPath: "/"
+
+logisticshub:
+  kind: streamlit
+  cwd: "."
+  startCommand: "streamlit run streamlit_app.py --server.port 8504 --server.address 127.0.0.1"
+  baseUrl: "http://127.0.0.1:8504"
+  readyPath: "/"
+
+hinglish-turn-detector:
+  kind: gradio
+  cwd: "."
+  startCommand: "python app.py"
+  baseUrl: "http://127.0.0.1:7860"
+  readyPath: "/"
