@@ -16,6 +16,8 @@ PROMPT_MANIFEST = ROOT / "scripts" / "portfolio_visual_prompts.json"
 SKIP_GENERIC = set()
 if PROMPT_MANIFEST.is_file():
     SKIP_GENERIC = set(json.loads(PROMPT_MANIFEST.read_text(encoding="utf-8"))["projects"].keys())
+GAME_KEYART = ROOT / "scripts" / "game_keyart_prompts.json"
+TIER_KEYART = ROOT / "scripts" / "tier1_tier2_visual_prompts.json"
 SKIP_GENERIC |= {
     "intelligent-vehicle-recognition-alpr",
     "ai-border-security",
@@ -28,6 +30,9 @@ SKIP_GENERIC |= {
     "multibax-sklearn",
     "neuralfolio",
 }
+for extra in (GAME_KEYART, TIER_KEYART):
+    if extra.is_file():
+        SKIP_GENERIC |= set(json.loads(extra.read_text(encoding="utf-8"))["projects"].keys())
 
 from doc36_common import PUBLIC, ffmpeg_bin
 

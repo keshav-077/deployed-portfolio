@@ -1,28 +1,4 @@
 {
   "style_suffix": "Photorealistic, cinematic 16:9, shallow depth of field, soft natural lighting, sharp legible on-screen text, no real company logos or trademarks.",
-  "projects": {
-    "vibe-apply-job-automation": "A phone showing a Telegram chat with a voice message Find data analyst jobs in Bengaluru next to a laptop with a node-based workflow canvas labeled Telegram, Whisper, GPT, Scrape, Hunter, Sheets. A spreadsheet-style table lists job title, company, location and recruiter email. A green badge reads Recruiter email found.",
-    "dcgan-image-generation": "A GPU workstation in a dim lab. The monitor shows a 6x6 grid of synthetic 64x64 faces labeled Epoch 1000, with a generator vs discriminator loss chart beside it. A caption reads AI-generated, not real people.",
-    "clothes-inpainting-sam": "A fashion-tech studio screen. A model photo has the jacket highlighted in a translucent blue mask. A prompt box reads red leather jacket, with four generated try-on variants underneath. A pipeline strip reads SAM ViT-H to Stable Diffusion 2 Inpainting.",
-    "cloudstack-messenger": "A laptop showing a clean chat UI beside a terminal running docker compose up. A diagram of five containers labeled Nginx, React, Go API, Redis, PostgreSQL. A green 5/5 containers healthy status in the corner.",
-    "crop-disease-detection": "A farmer holding a phone in a golden-hour field. The screen shows a crop-leaf photo with a card reading Predicted crop Maize and a confidence bar, plus a 15 crop classes label.",
-    "cyclegan": "Two portraits side by side one person wearing a face mask the same person without it. Curved arrows labeled Mask to No mask and Cycle-consistency loss. A small panel shows four networks 2 generators and 2 discriminators.",
-    "deepfake-detection": "A video-forensics monitor with a timeline of frames. A face is boxed in red with a gauge reading FAKE 0.93 and a small ROC curve. Caption EfficientNet-B0 plus BiLSTM with a confusion matrix side panel.",
-    "vae-digit-generation": "A research notebook on a monitor. A smooth 2D grid of generated handwritten digits morphs 0 through 9 beside a colored latent-space scatter plot. Caption Latent dim equals 2.",
-    "language-translation-summarization": "Split-screen language app. Left paragraph translated with mBART badge. Right long article condensed to headline with PEGASUS badge.",
-    "multimodal-generation-ai": "Creative-coding monitor prompt a cathedral made of ice. Filmstrip image sharpening noise to detailed scene timeline latent interpolation MP4 25 fps.",
-    "rl-music-recommendation": "Generic music app UI Recommended next list 5 songs. Radar chart danceability energy tempo valence. Q-table heatmap epsilon-decay side panel.",
-    "progressive-gan": "Horizontal strip face growing resolution 4x4 8x8 16x16 32x32 64x64 128x128. Fade-in alpha slider grid generated faces below.",
-    "sentiment-analysis-engine": "Generic social feed posts tagged green Positive red Negative pills. Side panel confusion matrix ROC sentiment-over-time chart.",
-    "sign-language-detection": "Webcam view hand in green ROI box. Binary threshold hand image large letter B predicted 26 ASL classes note.",
-    "source-code-analysis-chatbot": "Developer dual monitors. Chat answers Where is embedding created with file citations. GitHub repo URL field ChromaDB index ready chip.",
-    "stock-price-predictor": "Finance monitor line chart actual vs predicted overlapping next 10 days forecast shaded. Caption Bidirectional stacked LSTM RMSE readout.",
-    "vertexai-gemini-chatbot": "Minimal chat web app streaming response mid-sentence. Cloud console beside shows gemini-1.0-pro endpoint green status.",
-    "vertexai-llm-finetuning": "Split view base model vs tuned model same news article tuned sharper headline. Tuning job 100 steps europe-west4 Succeeded.",
-    "vertexai-rag": "Pipeline diagram PDF to sentences to embeddings to vector index to Gemini. Chat answer highlighted source Top-k retrieved.",
-    "wgan": "Training dashboard critic loss converges smoothly face grid improving chips Gradient penalty lambda 10 n_critic 5.",
-    "srgan": "Four-panel low-res bicubic SRGAN ground truth zoom face boxes. Diagram VGG19 perceptual loss plus adversarial loss.",
-    "attritionlens": "Bright HR office Streamlit dashboard tabs attrition department satisfaction correlation heatmap. Prediction form risk tier High 70 percent Download CSV.",
-    "earthquake-prediction": "Seismology monitor interactive map Turkey clustered markers lat lon widget bar chart Ridge Decision Tree KNN."
-  }
+  "projects": {}
 }

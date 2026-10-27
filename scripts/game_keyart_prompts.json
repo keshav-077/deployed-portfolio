@@ -1,0 +1,32 @@
+{
+  "style_suffix": "Premium AAA game key-art look, Unreal Engine render, volumetric light, matte black and gunmetal world with one neon accent color, clean minimal HUD, short crisp text, cinematic 16:9, shallow depth of field, no logos, no real game characters.",
+  "projects": {
+    "rl-music-recommendation": "Accent magenta. First-person neon rhythm-game highway at night. Five glowing song tiles drift toward player in parallel lanes, center brightest. Bottom reward counter +1 reward, header Recommended next. Lane glow adapts toward hit tiles.",
+    "sign-language-detection": "Accent green. Close-up hand in dark room, thin green scan box. Hand forms sign, glowing rune letter B condenses like spell cast. Particles from fingertips. HUD tag 26 letters.",
+    "progressive-gan": "Accent cyan. Six floating stone platforms staircase in black void. Same face on each platform sharper each level. Plaques Level 1 4x4 through Level 6 128x128. Glowing bridge fades between two platforms.",
+    "srgan": "Accent green. Museum vault night side view. Left hooded forger on blurry portrait. Right inspector green scanner beam on sharp portrait. Plaque 4x upscale, gauge Forger vs Inspector.",
+    "cyclegan": "Accent magenta. Two circular glowing portals face to face in black chamber. Person with mask enters left portal, same without mask exits right. Thin portal arc loops back. Labels Mask to No mask and Back again.",
+    "ddpm-diffusion": "Accent ice blue. Stone statue in dark gallery assembling from swirling dust, half particles half solid. Circular ability dial bottom ticks backward t equals 1000 to t equals 0. Cold blue dial light on dust.",
+    "wgan": "Accent orange. Low-angle giant excavator moving glowing sand mound from one shape to another. Tag Earth Mover distance. Orange work lights, black ground grid, gauge stable.",
+    "multimodal-generation-ai": "Accent ice blue. Ancient stone altar, floating text a cathedral made of ice condenses into scene. Left half glowing noise, right half sharp ice architecture. Rune plaques CLIP and VQGAN.",
+    "dcgan-image-generation": "Accent cyan. Character-select roster 4x3 grid synthetic face portraits in beveled frames. Cyan selection cursor on one. Header Select your NPC, footer Generated not real people.",
+    "crop-disease-detection": "Accent lime. Drone camera down on crop rows, strategy HUD. Green reticle on plant tag Maize. Mini-map corner, counter 15 crop classes. Golden-hour light.",
+    "stock-price-predictor": "Accent green. Mountain trail behind hiker. Path behind lit labeled Actual. Ahead fog with glowing dotted path Forecast next 10 days.",
+    "earthquake-prediction": "Accent orange. Isometric tactical map mountainous region on black table, fault line. Orange radar pulses from three epicenters. HUD Magnitude estimate. Unit icons Ridge Decision Tree KNN.",
+    "vae-digit-generation": "Accent violet. Retro arcade cabinet low angle dark arcade. Screen digit morphing as joystick slides glowing 2D grid. Marquee Latent dim equals 2. Violet floor glow.",
+    "sentiment-analysis-engine": "Accent green and red. Top-down gate with shield tower. Message cards down lane: red Negative break on shield, green Positive pass gate. Counter Blocked and Passed.",
+    "language-translation-summarization": "Accent amber. Two stone booths torchlit hall. First interpreter booth mBART scroll to readable text. Second scribe PEGASUS long scroll to one glowing line.",
+    "vertexai-gemini-chatbot": "Accent blue. Starship cockpit night over pilot shoulder. Floating AI orb streams text mid-sentence on glass HUD. Chip gemini-1.0-pro online green dot. Stars blur behind.",
+    "chainlit-llm-assistant": "Accent pink. First-person floating RPG quest panel dark corridor. Chat streams top, quest steps checked one tool call. Thin pink border. Label chainlit.",
+    "broken-semantic-search": "Accent red and green. Split explorer hands brass compass over map. Before needle spins wrong red pins. After needle locks green pin. Banner Embeddings Query Rank.",
+    "dontcaught-ai-assistant": "Accent violet. Stealth glass meeting room. Translucent violet figure beside table, camera cones pass through. HUD Hidden from screen capture, full stealth meter.",
+    "vibe-apply-job-automation": "Accent electric blue. Heist planning wall red string job cards on city map. Tag Recruiter email found. Note Listings scraped to Sheets. Blue desk lamp.",
+    "source-code-analysis-chatbot": "Accent gold. Isometric dungeon floorplan rooms as files. Explorer torch enters lit room src helper.py. Speech glyph Where is embedding created. Label Vector index ready.",
+    "vertexai-rag": "Accent cyan. Archive vault glowing index cards. Retrieval drone picks three cards to console Gemini Pro. Tag Top-k retrieved. Wall strip Matching Engine.",
+    "attritionlens": "Accent coral. Isometric office RTS base. Employee units at desks with health bars. Two coral rings High risk 70 percent. Tag Overworked.",
+    "clothes-inpainting-sam": "Accent blue. Character loadout front view. Jacket slot blue mask. Prompt chip red leather jacket, four red outfit cards. Strip SAM to Stable Diffusion.",
+    "deepfake-detection": "Accent red. Hall of mirrors nine faces. Real glows green, others red wireframe glitch, one tagged FAKE. Chip Spatial plus temporal check.",
+    "cloudstack-messenger": "Accent teal. Isometric factory five buildings conveyors. Nginx gatehouse React storefront Go API workshop Redis warehouse PostgreSQL vault. Parcels on belts. Sign Docker Compose.",
+    "vertexai-llm-finetuning": "Accent amber. Training dojo grey apprentice robot vs dummy. XP bar 100 steps, armor dull to polished amber. Label Supervised fine-tuning."
+  }
+}
