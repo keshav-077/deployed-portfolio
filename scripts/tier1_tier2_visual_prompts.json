@@ -1,0 +1,12 @@
+{
+  "style_suffix": "Photorealistic, cinematic 16:9, shallow depth of field, soft natural lighting, sharp legible on-screen text, no real company logos or trademarks.",
+  "projects": {
+    "invoiceflow-ai": "Finance operations desk at night. Ultrawide monitor shows Zamp-style AP automation UI: invoice PDF thumbnail on left, vision LLM extracted fields vendor invoice number amount due line items in center, PO master match panel with green Matched or amber Exception, audit trail timeline on right. Chips FastAPI React Gemini SQLite Inngest. Status Auto-approved with full audit trail.",
+    "logisticshub": "Modern analytics war room. Three monitors: Snowflake warehouse query, dbt lineage graph, logistics map heatmap of last-mile parcels. Dashboard cards read 30M synthetic parcels, 15 ML models, ETA forecast MAPE. Stack labels Snowflake dbt Python. Cool blue-teal data viz aesthetic.",
+    "hinglish-turn-detector": "Voice AI research desk. Monitor shows dual-scale Whisper waveform for Hinglish conversation with vertical turn-boundary markers and confidence scores. Side panel Gradio UI with audio upload and detected turn segments. Tags Whisper PyTorch Hugging Face. Caption low-latency turn detection for voice agents.",
+    "espcn-super-resolution": "Clean ML engineer desk. Monitor three-way image compare bicubic vs SRCNN vs ESPCN on Set5 crop with zoom inset. Metric chips 32.50 dB Set5 x3, 22729 params, 17.9x faster than SRCNN. Terminal corner green tests passed. TensorFlow super-resolution workflow.",
+    "fraud-detection-mlops": "SOC-style MLOps wall. Center Streamlit fraud scoring form probability 0.87 Flagged red. Surrounding screens Grafana latency, MLflow runs, Kubernetes pods 2 of 2 Running, precision-recall curve. Production fraud detection pipeline.",
+    "multibax-sklearn": "Materials discovery lab. Bench wafer beside monitor showing ternary Fe-Co-Ni phase diagram with highlighted target regions. Chart BAX acquisition 68 targets vs uncertainty sampling 25.5. Caption Bayesian active learning for alloys.",
+    "neuralfolio": "Quant trading desk evening. Dashboard donut portfolio allocation AAPL BTC MSFT SPY TLT Cash, equity curve RL agent beating buy-and-hold, tabs PPO SAC TD3, AI Risk Analyst card Medium risk with short bullet rationale. Deep RL portfolio manager."
+  }
+}

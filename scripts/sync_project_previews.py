@@ -20,6 +20,13 @@ SKIP_GENERIC |= {
     "intelligent-vehicle-recognition-alpr",
     "ai-border-security",
     "aeroscale-sr",
+    "invoiceflow-ai",
+    "logisticshub",
+    "hinglish-turn-detector",
+    "espcn-super-resolution",
+    "fraud-detection-mlops",
+    "multibax-sklearn",
+    "neuralfolio",
 }
 
 from doc36_common import PUBLIC, ffmpeg_bin
