@@ -1,12 +1,33 @@
 {
-  "style_suffix": "Photorealistic, cinematic 16:9, shallow depth of field, soft natural lighting, sharp legible on-screen text, no real company logos or trademarks.",
+  "style_suffix": "Stealth-game aesthetic, matte black and gunmetal surfaces, one neon accent color, thin HUD lines, clean uncluttered composition, cinematic 16:9, shallow depth of field, crisp legible text, no logos.",
   "projects": {
-    "invoiceflow-ai": "Finance operations desk at night. Ultrawide monitor shows Zamp-style AP automation UI: invoice PDF thumbnail on left, vision LLM extracted fields vendor invoice number amount due line items in center, PO master match panel with green Matched or amber Exception, audit trail timeline on right. Chips FastAPI React Gemini SQLite Inngest. Status Auto-approved with full audit trail.",
-    "logisticshub": "Modern analytics war room. Three monitors: Snowflake warehouse query, dbt lineage graph, logistics map heatmap of last-mile parcels. Dashboard cards read 30M synthetic parcels, 15 ML models, ETA forecast MAPE. Stack labels Snowflake dbt Python. Cool blue-teal data viz aesthetic.",
-    "hinglish-turn-detector": "Voice AI research desk. Monitor shows dual-scale Whisper waveform for Hinglish conversation with vertical turn-boundary markers and confidence scores. Side panel Gradio UI with audio upload and detected turn segments. Tags Whisper PyTorch Hugging Face. Caption low-latency turn detection for voice agents.",
-    "espcn-super-resolution": "Clean ML engineer desk. Monitor three-way image compare bicubic vs SRCNN vs ESPCN on Set5 crop with zoom inset. Metric chips 32.50 dB Set5 x3, 22729 params, 17.9x faster than SRCNN. Terminal corner green tests passed. TensorFlow super-resolution workflow.",
-    "fraud-detection-mlops": "SOC-style MLOps wall. Center Streamlit fraud scoring form probability 0.87 Flagged red. Surrounding screens Grafana latency, MLflow runs, Kubernetes pods 2 of 2 Running, precision-recall curve. Production fraud detection pipeline.",
-    "multibax-sklearn": "Materials discovery lab. Bench wafer beside monitor showing ternary Fe-Co-Ni phase diagram with highlighted target regions. Chart BAX acquisition 68 targets vs uncertainty sampling 25.5. Caption Bayesian active learning for alloys.",
-    "neuralfolio": "Quant trading desk evening. Dashboard donut portfolio allocation AAPL BTC MSFT SPY TLT Cash, equity curve RL agent beating buy-and-hold, tabs PPO SAC TD3, AI Risk Analyst card Medium risk with short bullet rationale. Deep RL portfolio manager."
+    "invoiceflow-ai": {
+      "accent": "teal",
+      "prompt": "A wide shot of a dark mailroom sorting line. Paper invoices and phone photos of invoices glide down a black conveyor toward a glass scanning gate. As each sheet passes under the gate, thin teal lines trace its fields, and a small floating tag lists Vendor, Amount and PO match. Past the gate the belt splits in two: most invoices continue down a clean lane under a green sign Auto-approved, and one slides onto a side lane under an amber sign Review. A strip of seven small glowing pips above the gate shows the matching dimensions, and a small plaque reads Gemini to Groq to OpenRouter."
+    },
+    "logisticshub": {
+      "accent": "amber",
+      "prompt": "An enormous night-time parcel sorting hub photographed from a high catwalk. Hundreds of identical dark parcels move on crossing belts, passing under a long scanning gantry that stamps each with a thin amber light line. Faint amber route lines trace across the floor toward distant bays, one per province. A dim overhead sign reads 30.2M parcels. At the far end, a lit glass control booth shows a small holographic panel with 15 models and RTS AUC 0.81."
+    },
+    "hinglish-turn-detector": {
+      "accent": "violet",
+      "prompt": "A small, dark vocal booth with a single microphone on a boom arm, seen from behind the speaker shoulder. A waveform ribbon streams out of the microphone in violet. It ends in a flat gap that is marked 200 ms pause, and a split of two glowing doors waits beyond it, labeled COMPLETE and HOLD. A thin readout beneath reads 47 ms and 10.2 MiB. Soft violet rim light on the speaker silhouette."
+    },
+    "espcn-super-resolution": {
+      "accent": "cyan",
+      "prompt": "A macro, top-down shot of one aerial city photo printed on a black table. Three glass loupes float in a row above the same corner of the photo, each showing it at a different sharpness: Bicubic blurry, SRCNN soft, ESPCN crisp with cyan edge glow. Under the loupes, three small plaques read 32.50 dB, 17.9x faster and 22729 params."
+    },
+    "fraud-detection-mlops": {
+      "accent": "red and green",
+      "prompt": "An airport-style security checkpoint for payments, at night. Payment cards ride a belt into a black X-ray tunnel. Most come out the other side lit green and pass a gate. One card is stopped inside the tunnel, outlined in red, with a floating tag Fraud 0.87 Flagged. Above the tunnel, a thin status board shows RandomForest plus SMOTE and 2 of 2 pods running. On the wall, a small neon sign reads MLflow."
+    },
+    "multibax-sklearn": {
+      "accent": "teal",
+      "prompt": "A lab stage in a black cleanroom. A circular wafer sits on a motorized platform while a thin teal laser probe lands on one point of it, leaving a small glowing dot. Above the wafer, a teal ternary triangle hologram has corners Fe, Co, Ni. The triangle target regions glow, and measured points are dotted across it, clustering inside the targets. To one side, two floating bars read BAX 68 and Uncertainty sampling 25.5."
+    },
+    "neuralfolio": {
+      "accent": "gold",
+      "prompt": "A top-down shot of a tactical command table, like a strategy game. Six glowing gold game tokens sit on a black map: AAPL, BTC-USD, MSFT, SPY, TLT and Cash. Each token base ring is sized to its portfolio weight. A thin gold line rises from the table into the air as an equity curve. A small HUD tag floats beside it reading SAC agent Risk Medium."
+    }
   }
 }
